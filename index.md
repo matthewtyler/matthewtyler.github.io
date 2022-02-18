@@ -36,7 +36,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[DOI](https://doi.org/10.1086/716950)]
 
-2. **Machine Learning Predictions as Regression Covariates**
+2. **The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**
   <br>
   with William Marble
   <br>
@@ -44,7 +44,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[DOI](https://doi.org/10.1017/pan.2021.3)]
 
-1. **Current Research Overstates American Support for Political Violence**
+1. **Machine Learning Predictions as Regression Covariates**
   <br>
   with Christian Fong
   <br>
