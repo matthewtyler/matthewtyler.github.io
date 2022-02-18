@@ -28,7 +28,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[OSF](https://osf.io/a8m3n/)]
 
-3. [**Current Research Overstates American Support for Political Violence**](https://doi.org/10.1086/716950)
+3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**](https://doi.org/10.1086/716950)
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
@@ -36,7 +36,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[DOI](https://doi.org/10.1086/716950)]
 
-2. [**Current Research Overstates American Support for Political Violence**](https://doi.org/10.1017/pan.2021.3)
+2. [**Machine Learning Predictions as Regression Covariates**](https://doi.org/10.1017/pan.2021.3)
   <br>
   with William Marble
   <br>
