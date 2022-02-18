@@ -10,7 +10,7 @@ I received a PhD in political science from Stanford University in 2021 after hav
 
 My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
 
-[Here is a link to my C.V., and my research is summarized below.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
+[Here is a link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 <!-- ## Research Interests
 
@@ -62,10 +62,10 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[PDF](https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0)]
 
-* [Counterfactual Forecasting: Causal Inference without Simultaneous Controls.](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)
+* [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)
   <br>
   [[PDF](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)]
 
-* [Getting More out of Human Coders with Statistical Models.](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)
+* [**Getting More out of Human Coders with Statistical Models**](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)
   <br>
   [[PDF](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)]
