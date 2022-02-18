@@ -10,7 +10,7 @@ I received a PhD in political science from Stanford University in 2021 after hav
 
 My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
 
-[**Here is a link to my C.V.**](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
+### [My C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 <!-- ## Research Interests
 
