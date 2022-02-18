@@ -20,7 +20,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
 
 ## Publications
 
-4. [**Current Research Overstates American Support for Political Violence**](https://osf.io/a8m3n/)
+4. **Current Research Overstates American Support for Political Violence**
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
@@ -28,7 +28,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[OSF](https://osf.io/a8m3n/)]
 
-3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**](https://doi.org/10.1086/716950)
+3. **Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
@@ -36,7 +36,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[DOI](https://doi.org/10.1086/716950)]
 
-2. [**Machine Learning Predictions as Regression Covariates**](https://doi.org/10.1017/pan.2021.3)
+2. **Machine Learning Predictions as Regression Covariates**
   <br>
   with William Marble
   <br>
@@ -44,7 +44,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[DOI](https://doi.org/10.1017/pan.2021.3)]
 
-1. [**Current Research Overstates American Support for Political Violence**](https://doi.org/10.1017/pan.2020.38)
+1. **Current Research Overstates American Support for Political Violence**
   <br>
   with Christian Fong
   <br>
@@ -54,7 +54,7 @@ My research is published or forthcoming at *Proceedings of the National Academy 
 
 ## Working Papers
 
-* [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**](https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0)
+* **Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**
   <br>
   with Shanto Iyengar
   <br>
@@ -62,10 +62,10 @@ My research is published or forthcoming at *Proceedings of the National Academy 
   <br>
   [[PDF](https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0)]
 
-* [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)
+* **Counterfactual Forecasting: Causal Inference without Simultaneous Controls**
   <br>
   [[PDF](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)]
 
-* [**Getting More out of Human Coders with Statistical Models**](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)
+* **Getting More out of Human Coders with Statistical Models**
   <br>
   [[PDF](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)]
