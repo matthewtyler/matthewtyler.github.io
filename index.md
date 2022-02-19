@@ -4,11 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a postdoc for both the Democracy and Polarization Lab and American National Election Study (ANES) at Stanford University. My research is in political methodology and American politics.
+I am a postdoc for both the Democracy and Polarization Lab and American National Election Study (ANES) at Stanford University.
 
-I received a PhD in political science from Stanford University in 2021 after having obtained a BS in statistics and BA in mathematics at Duke University in 2015.
+I develop new statistical methods for descriptive and causal inference with applications to studying polarization in American politics.
 
-My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
+My work is published or forthcoming at Proceedings of the National Academy of Sciences, The Journal of Politics, and Political Analysis.
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
