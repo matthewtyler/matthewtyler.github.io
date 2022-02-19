@@ -6,7 +6,7 @@ layout: homepage
 
 - I am a postdoc for both the Democracy and Polarization Lab and American National Election Study (ANES) at Stanford University.
 
-- I develop new statistical methods for descriptive and causal inference with applications to studying polarization in American politics.
+- I develop new statistical methods for descriptive and causal inference to help study polarization in US politics.
 
 - My work is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
 
