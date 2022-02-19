@@ -8,7 +8,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 I develop new statistical methods for descriptive and causal inference with applications to studying polarization in American politics.
 
-My work is published or forthcoming at Proceedings of the National Academy of Sciences, The Journal of Politics, and Political Analysis.
+My work is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
@@ -28,7 +28,7 @@ My work is published or forthcoming at Proceedings of the National Academy of Sc
   <br>
   [[OSF](https://osf.io/a8m3n/)]
 
-3. **Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**
+3. **[Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News](https://doi.org/10.1086/716950)**
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
