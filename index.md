@@ -21,16 +21,16 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *Forthcoming, Proceedings of the National Academy of Sciences*
-  <!-- <br>
-  [[OSF][1]] -->
+  <br>
+  [[OSF][1]]
 
 3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
   *Forthcoming, The Journal of Politics*
-  <!-- <br>
-  [[DOI][2]] -->
+  <br>
+  [[DOI][2]]
 
 
 2. [**The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**][3]
@@ -38,16 +38,16 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with William Marble
   <br>
   *Forthcoming, Political Analysis*
-  <!-- <br>
-  [[DOI][3]] -->
+  <br>
+  [[DOI][3]]
 
 1. [**Machine Learning Predictions as Regression Covariates**][4]
   <br>
   with Christian Fong
   <br>
   *2021, Political Analysis*
-  <!-- <br>
-  [[DOI][4]] -->
+  <br>
+  [[DOI][4]]
 
 ## Working Papers
 
@@ -56,16 +56,16 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with Shanto Iyengar
   <br>
   *Minor Revise, American Political Science Review*
-  <!-- <br>
-  [[PDF][5]] -->
+  <br>
+  [[PDF][5]]
 
 * [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
-  <!-- <br>
-  [[PDF][6]] -->
+  <br>
+  [[PDF][6]]
 
 * [**Getting More out of Human Coders with Statistical Models**][7]
-  <!-- <br>
-  [[PDF][7]] -->
+  <br>
+  [[PDF][7]]
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
