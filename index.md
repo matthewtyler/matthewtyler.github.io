@@ -16,13 +16,13 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Publications
 
-4. **Current Research Overstates American Support for Political Violence**
+4. [**Current Research Overstates American Support for Political Violence**][1]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *Forthcoming, Proceedings of the National Academy of Sciences*
   <br>
-  [[OSF](https://osf.io/a8m3n/)]
+  [[OSF][1]]
 
 3. **Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**
   <br>
@@ -65,3 +65,5 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 * **Getting More out of Human Coders with Statistical Models**
   <br>
   [[PDF](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)]
+
+[1]: https://osf.io/a8m3n/
