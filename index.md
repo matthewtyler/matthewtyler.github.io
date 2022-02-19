@@ -28,7 +28,7 @@ My work is published or forthcoming at *Proceedings of the National Academy of S
   <br>
   [[OSF](https://osf.io/a8m3n/)]
 
-3. **[Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News](https://doi.org/10.1086/716950)**
+3. **Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
@@ -43,6 +43,7 @@ My work is published or forthcoming at *Proceedings of the National Academy of S
   *Forthcoming, Political Analysis*
   <br>
   [[DOI](https://doi.org/10.1017/pan.2021.3)]
+  [[Software](https://github.com/matthewtyler/MultiScale)]
 
 1. **Machine Learning Predictions as Regression Covariates**
   <br>
@@ -51,6 +52,7 @@ My work is published or forthcoming at *Proceedings of the National Academy of S
   *2021, Political Analysis*
   <br>
   [[DOI](https://doi.org/10.1017/pan.2020.38)]
+  [[Software](https://github.com/matthewtyler/predictionError)]
 
 ## Working Papers
 
