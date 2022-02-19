@@ -24,46 +24,53 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   [[OSF][1]]
 
-3. **Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**
+3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
   *Forthcoming, The Journal of Politics*
   <br>
-  [[DOI](https://doi.org/10.1086/716950)]
+  [[DOI][2]]
 
-2. **The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**
+
+2. [**The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**][3]
   <br>
   with William Marble
   <br>
   *Forthcoming, Political Analysis*
   <br>
-  [[DOI](https://doi.org/10.1017/pan.2021.3)]
+  [[DOI][3]]
 
-1. **Machine Learning Predictions as Regression Covariates**
+1. [**Machine Learning Predictions as Regression Covariates**][4]
   <br>
   with Christian Fong
   <br>
   *2021, Political Analysis*
   <br>
-  [[DOI](https://doi.org/10.1017/pan.2020.38)]
+  [[DOI][4]]
 
 ## Working Papers
 
-* **Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**
+* [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
   <br>
   with Shanto Iyengar
   <br>
   *Minor Revise, American Political Science Review*
   <br>
-  [[PDF](https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0)]
+  [[PDF][5]]
 
-* **Counterfactual Forecasting: Causal Inference without Simultaneous Controls**
+* [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
   <br>
-  [[PDF](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)]
+  [[PDF][6]]
 
-* **Getting More out of Human Coders with Statistical Models**
+* [**Getting More out of Human Coders with Statistical Models**][7]
   <br>
-  [[PDF](https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0)]
+  [[PDF][7]]
 
 [1]: https://osf.io/a8m3n/
+[2]: https://doi.org/10.1086/716950
+[3]: https://doi.org/10.1017/pan.2021.3
+[4]: https://doi.org/10.1017/pan.2020.38  
+[5]: https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0
+[6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
+[7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
