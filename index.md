@@ -39,7 +39,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   *Forthcoming, Political Analysis*
   <br>
   [[DOI](https://doi.org/10.1017/pan.2021.3)]
-  [[Software](https://github.com/matthewtyler/MultiScale)]
 
 1. **Machine Learning Predictions as Regression Covariates**
   <br>
@@ -48,7 +47,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   *2021, Political Analysis*
   <br>
   [[DOI](https://doi.org/10.1017/pan.2020.38)]
-  [[Software](https://github.com/matthewtyler/predictionError)]
 
 ## Working Papers
 
