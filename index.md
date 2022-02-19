@@ -8,7 +8,7 @@ layout: homepage
 
 - I develop new statistical methods for descriptive and causal inference to help study polarization in US politics.
 
-- My work is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
+- My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, and *Political Analysis*.
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
