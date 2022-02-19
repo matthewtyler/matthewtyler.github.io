@@ -16,7 +16,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Publications
 
-4. [**Current Research Overstates American Support for Political Violence**][1]
+- [**Current Research Overstates American Support for Political Violence**][1]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
@@ -24,7 +24,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <!-- <br>
   [[OSF][1]] -->
 
-3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
+- [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
@@ -33,7 +33,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   [[DOI][2]] -->
 
 
-2. [**The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**][3]
+- [**The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**][3]
   <br>
   with William Marble
   <br>
@@ -41,7 +41,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <!-- <br>
   [[DOI][3]] -->
 
-1. [**Machine Learning Predictions as Regression Covariates**][4]
+- [**Machine Learning Predictions as Regression Covariates**][4]
   <br>
   with Christian Fong
   <br>
@@ -51,7 +51,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Working Papers
 
-* [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
+- [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
   <br>
   with Shanto Iyengar
   <br>
@@ -59,11 +59,11 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <!-- <br>
   [[PDF][5]] -->
 
-* [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
+- [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
   <!-- <br>
   [[PDF][6]] -->
 
-* [**Getting More out of Human Coders with Statistical Models**][7]
+- [**Getting More out of Human Coders with Statistical Models**][7]
   <!-- <br>
   [[PDF][7]] -->
 
