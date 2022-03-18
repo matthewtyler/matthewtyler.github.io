@@ -20,9 +20,9 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
-  *Forthcoming, Proceedings of the National Academy of Sciences*
+  *2022, Proceedings of the National Academy of Sciences*
   <br>
-  [[OSF][1]]
+  [[DOI](https://www-pnas-org.stanford.idm.oclc.org/doi/10.1073/pnas.2116870119)[[OSF][1]]
 
 3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
