@@ -62,7 +62,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 * [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
   <br>
-  Under Review
+  *Under Review*
   <br>
   [[PDF][6]]
 
