@@ -16,13 +16,13 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Publications
 
-4. [**Current Research Overstates American Support for Political Violence**][1]
+4. [**Current Research Overstates American Support for Political Violence**][8]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *2022, Proceedings of the National Academy of Sciences*
   <br>
-  [[DOI](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)] [[OSF][1]]
+  [[DOI][8]] [[OSF][1]]
 
 3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
@@ -61,11 +61,10 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 * [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
   <br>
+  Under Review
+  <br>
   [[PDF][6]]
 
-* [**Getting More out of Human Coders with Statistical Models**][7]
-  <br>
-  [[PDF][7]]
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
@@ -74,3 +73,4 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [5]: https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0
 [6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
 [7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
+[8]: 
