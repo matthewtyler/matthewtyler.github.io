@@ -16,6 +16,14 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Publications
 
+5. [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
+  <br>
+  with Shanto Iyengar
+  <br>
+  *Conditionally Accepted, American Political Science Review*
+  <br>
+  [[PDF][5]]
+
 4. [**Current Research Overstates American Support for Political Violence**][https://www.pnas.org/doi/full/10.1073/pnas.2116870119]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
@@ -51,13 +59,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Working Papers
 
-* [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
-  <br>
-  with Shanto Iyengar
-  <br>
-  *Minor Revise, American Political Science Review*
-  <br>
-  [[PDF][5]]
 
 * [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
   <br>
