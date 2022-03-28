@@ -16,13 +16,13 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Publications
 
-4. [**Current Research Overstates American Support for Political Violence**][https://doi.org/10.1073/pnas.2116870119]
+4. [**Current Research Overstates American Support for Political Violence**][https://www.pnas.org/doi/full/10.1073/pnas.2116870119]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *2022, Proceedings of the National Academy of Sciences*
   <br>
-  [[DOI](https://doi.org/10.1073/pnas.2116870119)] [[OSF][1]]
+  [[DOI](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)] [[OSF][1]]
 
 3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
