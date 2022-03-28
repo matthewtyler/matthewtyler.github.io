@@ -24,7 +24,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   [[PDF][5]]
 
-4. [**Current Research Overstates American Support for Political Violence**][https://www.pnas.org/doi/full/10.1073/pnas.2116870119]
+4. [**Current Research Overstates American Support for Political Violence**](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
