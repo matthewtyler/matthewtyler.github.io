@@ -73,4 +73,4 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [5]: https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0
 [6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
 [7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
-[8]: 
+[8]: https://doi.org/10.1073/pnas.2116870119
