@@ -20,7 +20,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   with Shanto Iyengar
   <br>
-  *Conditional Accept, American Political Science Review*
+  *Forthcoming, American Political Science Review*
   <br>
   [[PDF][5]]
 
