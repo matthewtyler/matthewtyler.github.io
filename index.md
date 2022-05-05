@@ -22,7 +22,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   *Forthcoming, American Political Science Review*
   <br>
-  [[PDF][5]]
+  [[DOI][5]]
 
 4. [**Current Research Overstates American Support for Political Violence**](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)
   <br>
@@ -71,6 +71,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [2]: https://doi.org/10.1086/716950
 [3]: https://doi.org/10.1017/pan.2021.3
 [4]: https://doi.org/10.1017/pan.2020.38  
-[5]: https://www.dropbox.com/s/5go8ja05l9vwhfx/Socialization_and_Polarization_maintext.pdf?dl=0
+[5]: https://www.doi.org/10.1017/S000305542200048X
 [6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
 [7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
