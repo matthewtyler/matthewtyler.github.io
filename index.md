@@ -30,7 +30,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   *2022, Proceedings of the National Academy of Sciences*
   <br>
-  [[DOI](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)] [[OSF][1]]
+  [[DOI](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)]
 
 3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
@@ -45,7 +45,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   with William Marble
   <br>
-  *Forthcoming, Political Analysis*
+  *2022, Political Analysis*
   <br>
   [[DOI][3]]
 
@@ -69,7 +69,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
-[3]: https://doi.org/10.1017/pan.2021.3
+[3]: https://www.doi.org/10.1017/pan.2021.3
 [4]: https://doi.org/10.1017/pan.2020.38  
 [5]: https://www.doi.org/10.1017/S000305542200048X
 [6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
