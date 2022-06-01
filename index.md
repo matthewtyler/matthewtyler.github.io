@@ -36,7 +36,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
-  *Forthcoming, The Journal of Politics*
+  *2022, The Journal of Politics*
   <br>
   [[DOI][2]]
 
