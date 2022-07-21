@@ -66,6 +66,11 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   [[PDF][6]]
 
+* [**A Statistical Framework to Engage the Problem of Disengaged Survey Respondents**][8]
+  <br>
+  with Justin Grimmer, Sean Westwood
+  <br>
+  [[PDF][8]]
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
@@ -74,3 +79,4 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [5]: https://www.doi.org/10.1017/S000305542200048X
 [6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
 [7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
+[8]: https://www.dropbox.com/s/57uqkms35ic9oz5/Disengaged.pdf?dl=0
