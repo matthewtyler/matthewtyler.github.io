@@ -23,7 +23,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   *2022, Proceedings of the National Academy of Sciences*
   <br>
-  > See also **[Reply to Kalmoe and Mason: The pitfalls of using surveys to measure low-prevalence attitudes and behavior][9]**
+  * See also **[Reply to Kalmoe and Mason: The pitfalls of using surveys to measure low-prevalence attitudes and behavior][9]**
 
 3. **[Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News][2]**
   <br>
