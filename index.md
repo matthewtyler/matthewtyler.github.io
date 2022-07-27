@@ -8,67 +8,51 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
-<!-- ## Research Interests
-
-- **Political Methodology:** descriptive inference, causal inference, machine learning
-- **American Politics:** polarization, political media, political socialization
- -->
-
 ## Publications
 
-6. [**Reply to Kalmoe and Mason: The pitfalls of using surveys to measure low-prevalence attitudes and behavior**][9]
-  <br>
-  with Sean Westwood, Justin Grimmer, and Clayton Nall
-  <br>
-  *2022, Proceedings of the National Academy of Sciences*
-  [[DOI][9]]
-
-5. [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
+5. [Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization][5]
   <br>
   with Shanto Iyengar
   <br>
   *Forthcoming, American Political Science Review*
-  [[DOI][5]]
 
-4. [**Current Research Overstates American Support for Political Violence**][10]
+4. [Current Research Overstates American Support for Political Violence][10]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *2022, Proceedings of the National Academy of Sciences*
-  [[DOI][10]]
+  <br>
+  See also [Reply to Kalmoe and Mason: The pitfalls of using surveys to measure low-prevalence attitudes and behavior][9]
 
-3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
+3. [Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News][2]
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
   *2022, The Journal of Politics*
-  [[DOI][2]]
 
 
-2. [**The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality**][3]
+2. [The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality][3]
   <br>
   with William Marble
   <br>
   *2022, Political Analysis*
-  [[DOI][3]]
 
-1. [**Machine Learning Predictions as Regression Covariates**][4]
+1. [Machine Learning Predictions as Regression Covariates][4]
   <br>
   with Christian Fong
   <br>
   *2021, Political Analysis*
-  [[DOI][4]]
 
 ## Working Papers
 
 
-* [**Counterfactual Forecasting: Causal Inference without Simultaneous Controls**][6]
+* [Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]
   <br>
   *Under Review*
   <br>
   [[PDF][6]]
 
-* [**A Statistical Framework to Engage the Problem of Disengaged Survey Respondents**][8]
+* [A Statistical Framework to Engage the Problem of Disengaged Survey Respondents][8]
   <br>
   with Justin Grimmer, Sean Westwood
   <br>
