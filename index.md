@@ -11,7 +11,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Publications
 
-5. ["Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization"][5]
+5. **[Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization"][5]**
   <br>
   with Shanto Iyengar.
   <br>
