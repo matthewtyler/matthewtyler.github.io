@@ -21,7 +21,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *2022, Proceedings of the National Academy of Sciences*
-  <br>
   [[DOI][9]]
 
 5. [**Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization**][5]
@@ -29,23 +28,20 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with Shanto Iyengar
   <br>
   *Forthcoming, American Political Science Review*
-  <br>
   [[DOI][5]]
 
-4. [**Current Research Overstates American Support for Political Violence**](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)
+4. [**Current Research Overstates American Support for Political Violence**][10]
   <br>
   with Sean Westwood, Justin Grimmer, and Clayton Nall
   <br>
   *2022, Proceedings of the National Academy of Sciences*
-  <br>
-  [[DOI](https://www.pnas.org/doi/full/10.1073/pnas.2116870119)]
+  [[DOI][10]]
 
 3. [**Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News**][2]
   <br>
   with Justin Grimmer and Shanto Iyengar
   <br>
   *2022, The Journal of Politics*
-  <br>
   [[DOI][2]]
 
 
@@ -54,7 +50,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with William Marble
   <br>
   *2022, Political Analysis*
-  <br>
   [[DOI][3]]
 
 1. [**Machine Learning Predictions as Regression Covariates**][4]
@@ -62,7 +57,6 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   with Christian Fong
   <br>
   *2021, Political Analysis*
-  <br>
   [[DOI][4]]
 
 ## Working Papers
@@ -89,3 +83,4 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
 [8]: https://www.dropbox.com/s/57uqkms35ic9oz5/Disengaged.pdf?dl=0
 [9]: https://doi.org/10.1073/pnas.2207584119
+[10]: https://www.pnas.org/doi/full/10.1073/pnas.2116870119
