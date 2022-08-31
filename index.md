@@ -53,20 +53,16 @@ My research is published or forthcoming at *Proceedings of the National Academy 
 * **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
   <br>
   *Under Review*
-  <br>
-  [[PDF][6]]
 
 * **[A Statistical Framework to Engage the Problem of Disengaged Survey Respondents][8]**
   <br>
   with Justin Grimmer, Sean Westwood
-  <br>
-  [[PDF][8]]
 
 * **[Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization][11]**
   <br>
   with Shanto Iyengar
   <br>
-  [[PDF][11]]
+  *Under Review*
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
