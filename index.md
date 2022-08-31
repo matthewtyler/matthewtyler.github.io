@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. I develop new statistical methods for descriptive and causal inference with applications to political polarization in the US. My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
+I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. My research measures the extent, causes, and consequences of political division and polarization in American politics. To do this, I develop new statistical tools and techniques to solve consequential yet underappreciated methodological problems. While the methodological tools I develop are intended to better understand American politics, they are applicable to other fields in political science and to social science problems more generally.
+
+My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
@@ -60,6 +62,12 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   [[PDF][8]]
 
+* **[Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization][11]**
+  <br>
+  with Shanto Iyengar
+  <br>
+  [[PDF][11]]
+
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
 [3]: https://www.doi.org/10.1017/pan.2021.3
@@ -67,6 +75,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [5]: https://www.doi.org/10.1017/S000305542200048X
 [6]: https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0
 [7]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
-[8]: https://www.dropbox.com/s/57uqkms35ic9oz5/Disengaged.pdf?dl=0
+[8]: https://www.dropbox.com/s/m86g05zl57g36an/The_Dangers_of_Disengaged_Respondents.pdf?dl=0
 [9]: https://doi.org/10.1073/pnas.2207584119
 [10]: https://www.pnas.org/doi/full/10.1073/pnas.2116870119
+[11]: https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0
