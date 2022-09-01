@@ -51,8 +51,6 @@ My research is published or forthcoming at *Proceedings of the National Academy 
 
 
 * **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
-  <br>
-  *Under Review*
 
 * **[A Statistical Framework to Engage the Problem of Disengaged Survey Respondents][8]**
   <br>
@@ -61,8 +59,8 @@ My research is published or forthcoming at *Proceedings of the National Academy 
 * **[Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization][11]**
   <br>
   with Shanto Iyengar
-  <br>
-  *Under Review*
+
+* **[Getting More out of Human Coders with Statistical Models][12]**
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
@@ -75,3 +73,4 @@ My research is published or forthcoming at *Proceedings of the National Academy 
 [9]: https://doi.org/10.1073/pnas.2207584119
 [10]: https://www.pnas.org/doi/full/10.1073/pnas.2116870119
 [11]: https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0
+[12]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
