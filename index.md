@@ -4,9 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. My research measures the extent, causes, and consequences of political division and polarization in American politics. To do this, I develop new statistical tools and techniques to solve consequential methodological problems.
-
-My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
+I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. Broadly, my research focuses on political methodology, American political behavior, and public opinion. Specifically, I develop new statistical tools and techniques to measure the nature, causes, and consequences of political polarization in American politics. My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
