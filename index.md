@@ -47,6 +47,8 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Working Papers
 
+* **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
+
 * **[Evaluating a New Generation of Expansive Claims about Vote Manipulation][13]**
   <br>
   with Justin Grimmer, Michael C. Herron
@@ -59,7 +61,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   with Shanto Iyengar
 
-* **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
+
 
 * **[Getting More out of Human Coders with Statistical Models][12]**
 
