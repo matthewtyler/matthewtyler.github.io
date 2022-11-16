@@ -47,8 +47,9 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Working Papers
 
-
-* **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
+* **[Evaluating a New Generation of Expansive Claims about Vote Manipulation][13]**
+  <br>
+  with Justin Grimmer, Michael C. Herron
 
 * **[A Statistical Framework to Engage the Problem of Disengaged Survey Respondents][8]**
   <br>
@@ -57,6 +58,8 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 * **[Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization][11]**
   <br>
   with Shanto Iyengar
+
+* **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
 
 * **[Getting More out of Human Coders with Statistical Models][12]**
 
@@ -72,3 +75,4 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 [10]: https://www.pnas.org/doi/full/10.1073/pnas.2116870119
 [11]: https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0
 [12]: https://www.dropbox.com/s/lraimdktckkiwvj/Getting_More_out_of_Human_Coders_with_Statistical_Models.pdf?dl=0
+[13]: https://www.dropbox.com/s/92lp1gmqw2pei8m/Expansive.pdf?dl=0
