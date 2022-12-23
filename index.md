@@ -4,14 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. Broadly, my research focuses on political methodology, partisan polarization, and political media. Specifically, I develop new statistical tools and techniques to measure the nature, causes, and consequences of political polarization in American politics. My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
+I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. My research is on political methodology and American politics.
+
+In July 2023, I will be joining Rice University political science as an assistant professor.
+
+<!-- Broadly, my research focuses on political methodology, partisan polarization, and political media. Specifically, I develop new statistical tools and techniques to measure the nature, causes, and consequences of political polarization in American politics. My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*. -->
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 
 ## Publications
 
-5. **[Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization"][5]**
+5. **[Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization][5]**
   <br>
   with Shanto Iyengar.
   <br>
@@ -47,7 +51,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
 
 ## Working Papers
 
-* **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]**
+<!-- * **[Counterfactual Forecasting: Causal Inference without Simultaneous Controls][6]** -->
 
 * **[Evaluating a New Generation of Expansive Claims about Vote Manipulation][13]**
   <br>
@@ -61,9 +65,7 @@ I am a postdoc for both the Democracy and Polarization Lab and American National
   <br>
   with Shanto Iyengar
 
-
-
-* **[Getting More out of Human Coders with Statistical Models][12]**
+<!-- * **[Getting More out of Human Coders with Statistical Models][12]** -->
 
 [1]: https://osf.io/a8m3n/
 [2]: https://doi.org/10.1086/716950
