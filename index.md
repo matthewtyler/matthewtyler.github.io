@@ -4,11 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a postdoc for both the Democracy and Polarization Lab and American National Election Studies (ANES) at Stanford University. My research is on political methodology and American politics.
-
-In July 2023, I will be joining Rice University political science as an assistant professor.
-
-<!-- Broadly, my research focuses on political methodology, partisan polarization, and political media. Specifically, I develop new statistical tools and techniques to measure the nature, causes, and consequences of political polarization in American politics. My research is published or forthcoming at *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*. -->
+I am currently a Postdoctoral Scholar for both the Democracy and Polarization Lab at Stanford University and the Stanford University division of the American National Election Studies. Beginning in July 2023 I will be an Assistant Professor of Political Science at Rice University. I completed my Ph.D. in Political Science, with focuses in Political Methodology and American Politics, from Stanford University in June 2021. Broadly, my research covers topics in political methodology and American politics. My peer-reviewed publications have appeared or are accepted to appear in journals such as *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
 
 ## [Link to my C.V.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
