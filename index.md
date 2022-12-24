@@ -6,7 +6,7 @@ layout: homepage
 
 I am currently a Postdoctoral Scholar for both the Democracy and Polarization Lab at Stanford University and the American National Election Studies at Stanford University. Beginning in July 2023 I will be an Assistant Professor of Political Science at Rice University. I completed my Ph.D. in Political Science, with focuses in Political Methodology and American Politics, from Stanford University in June 2021. Broadly, my research covers topics in applied statistics and American political behavior. My peer-reviewed publications have appeared or are accepted to appear in journals such as *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, and *Political Analysis*.
 
-My CV can be found [here.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0).
+My CV can be found [here.](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 ## Publications
 
