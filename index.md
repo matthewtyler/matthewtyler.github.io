@@ -14,8 +14,6 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 5. **Tyler, Matthew**, and Shanto Iyengar. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review*, First View. [[DOI]](https://doi.org/10.1017/S000305542200048X)
 
-<!-- 5. Westwood, Sean J., Justin Grimmer, **Matthew Tyler**, and Clayton Nall. 2022. "Reply to Kalmoe and Mason: The Pitfalls of Using Surveys to Measure Low-Prevalence Attitudes and Behavior." *Proceedings of the National Academy of Sciences* 119(32): e2207584119. [[DOI]](https://10.1073/pnas.2207584119) -->
-
 4. Westwood, Sean J., Justin Grimmer, **Matthew Tyler**, and Clayton Nall. 2022. "Current Research Overstates American Support for Political Violence." *Proceedings of the National Academy of Sciences* 119(12): e2116870119. [[DOI]](https://doi.org/10.1073/pnas.2116870119)
 
 3. **Tyler, Matthew**, Justin Grimmer, and Shanto Iyengar. 2022. "Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News." *The Journal of Politics* 84(2): 1057–73. [[DOI]](https://doi.org/10.1086/716950)
