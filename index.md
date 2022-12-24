@@ -10,6 +10,8 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 ## Publications
 
+{: reversed="reversed"}
+
 6. **Tyler, Matthew**, and Shanto Iyengar. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review*, First View. [[DOI]](https://doi.org/10.1017/S000305542200048X)
 
 5. Westwood, Sean J., Justin Grimmer, **Matthew Tyler**, and Clayton Nall. 2022. "Reply to Kalmoe and Mason: The Pitfalls of Using Surveys to Measure Low-Prevalence Attitudes and Behavior." *Proceedings of the National Academy of Sciences* 119(32): e2207584119. [[DOI]](https://10.1073/pnas.2207584119)
