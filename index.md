@@ -12,7 +12,7 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 {: reversed="reversed"}
 
-5. **Tyler, Matthew**, and Shanto Iyengar. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review*, First View. [[DOI]](https://doi.org/10.1017/S000305542200048X)
+5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347-354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
 
 4. Westwood, Sean J., Justin Grimmer, **Matthew Tyler**, and Clayton Nall. 2022. "Current Research Overstates American Support for Political Violence." *Proceedings of the National Academy of Sciences* 119(12): e2116870119. [[DOI]](https://doi.org/10.1073/pnas.2116870119)
 
