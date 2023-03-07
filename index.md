@@ -12,7 +12,7 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 {: reversed="reversed"}
 
-5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347-354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
+5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347–354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
 
 4. Westwood, Sean J., Justin Grimmer, **Matthew Tyler**, and Clayton Nall. 2022. "Current Research Overstates American Support for Political Violence." *Proceedings of the National Academy of Sciences* 119(12): e2116870119. [[DOI]](https://doi.org/10.1073/pnas.2116870119)
 
@@ -27,7 +27,10 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 ## Working Papers
 
 
-* Iyengar, Shanto and **Matthew Tyler**. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." Revise and Resubmit, *American Political Science Review*. [[PDF]](https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0)
+* Iyengar, Shanto and **Matthew Tyler**. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." Minor revise, *American Political Science Review*. [[PDF]](https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0)
+
+
+* Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." Revise and resubmit, *Election Law Journal*. [[PDF]](https://www.dropbox.com/s/92lp1gmqw2pei8m/Expansive.pdf?dl=0)
 
 
 * **Tyler, Matthew.** "Counterfactual Forecasting: Causal Inference without Simultaneous Controls." [[PDF]](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)
@@ -35,6 +38,4 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 * **Tyler, Matthew**, Justin Grimmer, and Sean J. Westwood. "A Statistical Framework to Engage the Problem of Disengaged Survey Respondents." [[PDF]](https://www.dropbox.com/s/m86g05zl57g36an/The_Dangers_of_Disengaged_Respondents.pdf?dl=0)
 
 
-
-* Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." [[PDF]](https://www.dropbox.com/s/92lp1gmqw2pei8m/Expansive.pdf?dl=0)
 
