@@ -27,7 +27,7 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 ## Working Papers
 
 
-* Iyengar, Shanto and **Matthew Tyler**. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." Minor revise, *American Political Science Review*. [[PDF]](https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0)
+* **Tyler, Matthew** and Shanto Iyengar. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." Revise and resubmit, *American Political Science Review*. [[PDF]](https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0)
 
 
 * Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." Revise and resubmit, *Election Law Journal*. [[PDF]](https://www.dropbox.com/s/92lp1gmqw2pei8m/Expansive.pdf?dl=0)
