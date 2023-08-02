@@ -26,6 +26,8 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 ## Working Papers
 
+* **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. "Understanding Democratic Bias in Recent Surveys: Insights from the 2020 ANES."" Revise and resubmit, *American Journal of Political Science*. 
+
 
 * **Tyler, Matthew** and Shanto Iyengar. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." Revise and resubmit, *American Political Science Review*. [[PDF]](https://www.dropbox.com/s/0pckb5wjrxcjbs4/Robustness_of_Increasing_Affective_Polarization.pdf?dl=0)
 
