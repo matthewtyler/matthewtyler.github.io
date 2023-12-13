@@ -12,7 +12,7 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 {: reversed="reversed"}
 
-6. **Tyler, Matthew** and Shanto Iyengar. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." Forthcoming, *American Political Science Review*.
+6. **Tyler, Matthew** and Shanto Iyengar. 2023. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." *American Political Science Review*, First View. [[DOI]](https://doi.org/10.1017/S0003055423001302)
 
 5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347–354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
 
