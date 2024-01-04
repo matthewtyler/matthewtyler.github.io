@@ -12,6 +12,8 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 {: reversed="reversed"}
 
+7. Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." Accepted, *Election Law Journal*.
+
 6. **Tyler, Matthew** and Shanto Iyengar. 2023. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." *American Political Science Review*, First View. [[DOI]](https://doi.org/10.1017/S0003055423001302)
 
 5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347–354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
@@ -29,8 +31,6 @@ My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 ## Working Papers
 
 * **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. "Understanding Democratic Bias in Recent Surveys: Insights from the 2020 ANES." Revise and resubmit, *American Journal of Political Science*. 
-
-* Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." Revise and resubmit, *Election Law Journal*. [[PDF]](https://www.dropbox.com/s/92lp1gmqw2pei8m/Expansive.pdf?dl=0)
 
 
 * **Tyler, Matthew.** "Counterfactual Forecasting: Causal Inference without Simultaneous Controls." [[PDF]](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0)
