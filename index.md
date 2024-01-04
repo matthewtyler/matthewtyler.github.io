@@ -4,7 +4,8 @@ layout: homepage
 
 ## About Me
 
-I am an Assistant Professor of Political Science at Rice University. I obtained my Ph.D. in Political Science from Stanford University in June 2021. Broadly, my research covers topics in political methodology and political polarization in the United States.
+I am an Assistant Professor of Political Science at Rice University. I obtained my Ph.D. in Political Science from Stanford University in June 2021. Broadly, my research covers topics in political methodology and American politics.
+
 <!-- My peer-reviewed publications have appeared or are accepted to appear in journals such as *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, *Political Analysis*, and *Election Law Journal*. -->
 
 My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0).
