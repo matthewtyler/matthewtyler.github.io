@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## Bio
 
 <!-- I am an assistant professor of political science at Rice University. I obtained my PhD in political science from Stanford University in 2021 after graduating with a BS in statistics and a BA in mathematics from Duke University in 2015. -->
 
