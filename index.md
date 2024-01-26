@@ -4,7 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am an assistant professor of political science at Rice University. I obtained my PhD in political science from Stanford University in 2021 after graduating with a BS in statistics and a BA in mathematics from Duke University in 2015. Broadly, my research covers topics in political methodology and American politics.
+<!-- I am an assistant professor of political science at Rice University. I obtained my PhD in political science from Stanford University in 2021 after graduating with a BS in statistics and a BA in mathematics from Duke University in 2015. -->
+
+Matthew Tyler develops statistical methods to improve the measurements and causal inferences made with survey data. He applies these and other cutting-edge methods to examine political polarization, ideology, and policy representation in American politics. He has published on these topics in journals including the *American Political Science Review*, *Proceedings of the National Academy of Sciences*, *The Journal of Politics*, *Political Analysis*, and *Election Law Journal*
+
+<!-- I develop statistical methods to improve the measurements and causal inferences made with survey data. I apply these and other cutting-edge methods to study political polarization and representation in American politics. -->
+
+ <!-- Broadly, my research covers topics in political methodology and American politics. -->
 
 <!-- My peer-reviewed publications have appeared or are accepted to appear in journals such as *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, *Political Analysis*, and *Election Law Journal*. -->
 
