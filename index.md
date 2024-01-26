@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## Bio
+## Biography
 
 <!-- I am an assistant professor of political science at Rice University. I obtained my PhD in political science from Stanford University in 2021 after graduating with a BS in statistics and a BA in mathematics from Duke University in 2015. -->
 
@@ -14,7 +14,7 @@ Matthew Tyler develops statistical methods to improve the measurements and causa
 
 <!-- My peer-reviewed publications have appeared or are accepted to appear in journals such as *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, *Political Analysis*, and *Election Law Journal*. -->
 
-My CV can be found [here](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0).
+[Download CV](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0).
 
 ## Peer-Reviewed Publications
 
