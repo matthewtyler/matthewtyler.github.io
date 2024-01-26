@@ -16,7 +16,7 @@ Matthew Tyler develops statistical methods to improve the measurements and causa
 
 <!-- My peer-reviewed publications have appeared or are accepted to appear in journals such as *Proceedings of the National Academy of Sciences*, *American Political Science Review*, *The Journal of Politics*, *Political Analysis*, and *Election Law Journal*. -->
 
-[**Download CV**](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
+[DOWNLOAD CV](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
 ## Peer-Reviewed Publications
 
