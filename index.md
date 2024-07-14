@@ -40,7 +40,7 @@ Matthew Tyler develops statistical methods to improve measurements and causal in
 
 ## Working Papers
 
-* **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. "Why Do Surveys Underestimate Support for Trump?" Conditional accept, *American Journal of Political Science*. 
+* **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. "Why Are Surveys Struggling to Estimate Vote Shares?" Conditional accept, *American Journal of Political Science*. 
 
 * **Tyler, Matthew**, Justin Grimmer, and Sean J. Westwood. "A Statistical Framework to Engage the Problem of Disengaged Survey Respondents." [[PDF]](https://www.dropbox.com/scl/fi/vzjn03skoy7sc2a088rh8/The_Dangers_of_Disengaged_Respondents.pdf?rlkey=2m0jk2kcptw5dlt43umxwbikv&dl=0)
 
