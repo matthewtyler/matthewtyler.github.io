@@ -42,6 +42,8 @@ Matthew Tyler develops statistical methods to improve measurements and causal in
 
 * **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. "Why Are Surveys Struggling to Estimate Vote Shares?" Conditional accept, *American Journal of Political Science*. 
 
+**Tyler, Matthew**, Shanto Iyengar, Arjun Wilkins, et al. "Campaigns Reinforce Partisanship and Short-Term Forces: Evidence from a Large-Scale Panel Study of the 2020 US Presidential Campaign." Revise and resubmit, *Political Science Research and Methods*
+
 * **Tyler, Matthew**, Justin Grimmer, and Sean J. Westwood. "A Statistical Framework to Engage the Problem of Disengaged Survey Respondents." [[PDF]](https://www.dropbox.com/scl/fi/vzjn03skoy7sc2a088rh8/The_Dangers_of_Disengaged_Respondents.pdf?rlkey=2m0jk2kcptw5dlt43umxwbikv&dl=0)
 
 
