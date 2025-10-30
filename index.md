@@ -4,7 +4,7 @@ layout: homepage
 
 ## Bio
 
-I'm an Assistant Professor in the Department of Political Science at Rice University. My research explores political methodology, with a focus on understanding and addressing measurement challenges in the study of partisan polarization and political behavior. I am a Principal Investigator on a National Science Foundation (NSF) CAREER grant, which supports my work on developing statistical solutions for survey measurement errors. I earned my PhD in Political Science from Stanford University in 2021 and hold bachelor's degrees in Statistical Science and Mathematics from Duke University.
+I'm an Assistant Professor in the Department of Political Science at Rice University. I specialize in political methodology, with a focus on understanding and addressing measurement and causal inference challenges in the study of partisan polarization. I am a Principal Investigator on a National Science Foundation (NSF) CAREER grant, which supports my work on developing statistical solutions for survey measurement errors. I earned my PhD in Political Science from Stanford University in 2021 and hold bachelor's degrees in Statistical Science and Mathematics from Duke University.
 
 [DOWNLOAD CV](https://www.dropbox.com/s/sm0pfjekpzdykd7/CV.pdf?dl=0)
 
