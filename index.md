@@ -18,7 +18,7 @@ I'm an Assistant Professor in the Department of Political Science at Rice Univer
 
 7. Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." 2024. *Election Law Journal* 23(3): 211-236. [[DOI]](https://doi.org/10.1089/elj.2022.0070)
 
-6. **Tyler, Matthew** and Shanto Iyengar. 2023. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." *American Political Science Review* 118(3): 1570-1576. [[DOI]](https://doi.org/10.1017/S0003055423001302)
+6. **Tyler, Matthew** and Shanto Iyengar. 2024. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." *American Political Science Review* 118(3): 1570-1576. [[DOI]](https://doi.org/10.1017/S0003055423001302)
 
 5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347–354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
 
