@@ -10,6 +10,8 @@ I'm an Assistant Professor in the Department of Political Science at Rice Univer
 
 ## Peer-Reviewed Publications
 
+{: reversed="reversed"}
+
 9. **Tyler, Matthew**, Shanto Iyengar, Arjun Wilkins, et al. "Campaigns Reinforce Partisanship and Short-Term Forces: Evidence from a Large-Scale Panel Study of the 2020 US Presidential Campaign." Conditionally accepted, *Political Science Research and Methods*
 
 8. **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. 2026. "Why Are Surveys Struggling to Estimate Vote Shares?" *American Journal of Political Science*, Early View. [[DOI]](https://doi.org/10.1111/ajps.70051)
