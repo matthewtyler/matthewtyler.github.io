@@ -1,4 +1,17 @@
-# The Minimal Light Theme
+# Matthew Tyler’s website
+
+The homepage uses Jekyll with a custom responsive layout. Edit the biography in
+`index.md`, profile details in `_config.yml`, layout in `_layouts/homepage.html`,
+and styles in `_sass/minimal-light.scss`. Existing publication section anchors
+and the CV download path are preserved. The design supports system dark mode,
+keyboard navigation, reduced motion, mobile screens, and printing without
+requiring JavaScript or third-party font requests. Source Serif 4 and IBM Plex
+Sans are served from `assets/fonts/`, with their SIL Open Font licenses included.
+Font-face definitions live in `_sass/_fonts.scss`.
+
+Run `bundle exec jekyll serve` to preview at <http://localhost:4000>.
+
+The original theme documentation is retained below for reference.
 
 ## Updating the CV and publications
 

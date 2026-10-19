@@ -24,5 +24,6 @@ def validate(file)
   exit 1
 end
 
-validate 'index.html'
+site_directory = File.expand_path('../_site', __dir__)
+Dir.glob('**/*.html', base: site_directory).sort.each { |file| validate file }
 validate File.join 'assets', 'css', 'style.css'
