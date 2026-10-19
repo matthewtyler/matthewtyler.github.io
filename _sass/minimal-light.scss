@@ -27,7 +27,7 @@ nav a { font-size: 13px; font-weight: 500; color: var(--text); text-decoration: 
 nav a:hover { text-decoration: underline; }
 .page-grid { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 88px; padding: 64px 0 80px; align-items: start; }
 .profile { position: sticky; top: 40px; }
-.portrait { width: 160px; height: auto; border-radius: 3px; display: block; margin-bottom: 30px; }
+.portrait { width: 160px; max-width: 100%; height: auto; border-radius: 3px; display: block; margin-bottom: 30px; }
 .eyebrow { color: var(--accent); font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 15px; }
 h1, .profile-name { font: 400 66px/.98 var(--font-text); letter-spacing: -.045em; color: var(--ink); margin: 0 0 24px; }
 .position { margin: 0 0 18px; font-size: 15px; line-height: 1.65; }
