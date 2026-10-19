@@ -1,7 +1,9 @@
 AllCops:
+  TargetRubyVersion: 3.3
+  NewCops: disable
   Exclude:
     - _site/**/*
     - vendor/**/*
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: false

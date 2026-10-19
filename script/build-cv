@@ -1,0 +1,14 @@
+#!/bin/sh
+# Run from any directory. Requires pdflatex (e.g. MacTeX or TeX Live).
+set -eu
+
+repo_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+build_dir=$(mktemp -d)
+trap 'rm -rf "$build_dir"' EXIT HUP INT TERM
+
+cd "$repo_dir/CV"
+for pass in 1 2; do
+  pdflatex -interaction=nonstopmode -halt-on-error -no-shell-escape \
+    -jobname=CV-Matthew-Tyler -output-directory="$build_dir" CV.tex
+done
+cp "$build_dir/CV-Matthew-Tyler.pdf" CV-Matthew-Tyler.pdf

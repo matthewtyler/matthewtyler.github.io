@@ -1,0 +1,250 @@
+% Matthew Tyler — Academic Curriculum Vitae
+% Revised formatting, October 2026.
+% Compile with pdflatex (twice to stabilize hyperlinks and page layout).
+% Publication statuses, teaching dates, and appointments are retained from
+% the supplied CV and should be verified before circulation.
+
+\documentclass[11pt,a4paper]{article}
+
+% Type and page geometry
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tgpagella}
+\usepackage[scale=0.95]{tgheros} % Matching sans-serif for section headings
+\usepackage{microtype}
+\usepackage[a4paper,margin=0.85in,footskip=0.35in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdfauthor={Matthew Tyler},
+  pdftitle={Matthew Tyler — Curriculum Vitae}
+}
+\urlstyle{same}
+\linespread{1.10}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+
+% Section hierarchy
+\titleformat{\section}
+  {\large\sffamily\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.35em}{0.65em}
+\titleformat{\subsection}
+  {\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.4em}
+
+% One-line entry with date/term aligned on the right.
+% Long titles wrap gracefully in the left column.
+\newcommand{\cvrow}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X>{\raggedleft\arraybackslash}p{0.27\linewidth}@{}}
+  #1 & #2
+  \end{tabularx}\par
+}
+
+% Consistent, compact publication and manuscript lists.
+\newenvironment{publicationlist}{%
+  \begin{itemize}[leftmargin=2.1em,labelsep=0.45em,
+                   topsep=0.3em,itemsep=0.6em,parsep=0pt]
+}{\end{itemize}}
+\newenvironment{manuscriptlist}{%
+  \begin{itemize}[leftmargin=0pt,label={},
+                   topsep=0.3em,itemsep=0.6em,parsep=0pt]
+}{\end{itemize}}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{[DOI]}}
+\newcommand{\pdf}[1]{\href{#1}{[PDF]}}
+\newcommand{\ssrn}[1]{\href{https://ssrn.com/abstract=#1}{[SSRN]}}
+
+% Page footer: useful when a multi-page CV is printed or separated.
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize Matthew Tyler}
+\fancyfoot[C]{\footnotesize\thepage}
+\fancyfoot[R]{\footnotesize Updated \today}
+
+\begin{document}
+
+% CONTACT
+\begin{center}
+  {\LARGE\bfseries Matthew Tyler}\par\vspace{0.25em}
+  Assistant Professor of Political Science \textbullet\ Rice University\par\vspace{0.3em}
+  \href{mailto:mdtyler@rice.edu}{mdtyler@rice.edu}
+  \quad\textbar\quad +1 (713) 348-4842
+  \quad\textbar\quad \href{https://matthewtyler.site}{matthewtyler.site}\par\vspace{0.2em}
+  {\small Department of Political Science, MS-24 \textbullet\ P.O.~Box 1892
+  \textbullet\ Houston, TX 77251-1892}
+\end{center}
+
+\section{ACADEMIC APPOINTMENTS}
+\cvrow{\textbf{Rice University}}{2023--present}
+Assistant Professor, Department of Political Science\par
+Member, Ken Kennedy Institute (2024--present)\par
+\medskip
+\cvrow{\textbf{Stanford University}}{2021--2023}
+Postdoctoral Scholar\par
+American National Election Studies (ANES); Democracy and Polarization Lab
+
+
+\section{EDUCATION}
+\cvrow{\textbf{Stanford University}}{2021}
+Ph.D., Political Science\par
+\smallskip
+\cvrow{\textbf{Duke University}}{2015}
+B.S., Statistical Science; B.A., Mathematics
+
+\section{PUBLICATIONS}
+\subsection*{Refereed Journal Articles}
+\begin{publicationlist}
+\item [9.] \textbf{Tyler, Matthew}, Shanto Iyengar, Arjun Wilkins, et al.
+  ``Campaigns Reinforce Partisanship and Short-Term Forces: Evidence
+  from a Large-Scale Panel Study of the 2020 US Presidential Campaign.'' \emph{Political Science Research and Methods}. Conditionally accepted (pending replication).
+
+\item[8.] \textbf{Tyler, Matthew}, D. Sunshine Hillygus, Matthew DeBell,
+  Ted Brader, Shanto Iyengar, Daron Shaw, and Nicholas Valentino.
+  ``Why Are Surveys Struggling to Estimate Vote Shares?'' \emph{American Journal of Political Science} (Early View). \doi{10.1111/ajps.70051}
+
+\item[7.] Grimmer, Justin, Michael C. Herron, and \textbf{Matthew Tyler}.
+  2024. ``Evaluating a New Generation of Expansive Claims about Vote
+  Manipulation.'' \emph{Election Law Journal} 23(3): 211--236.
+  \doi{10.1089/elj.2022.0070}.
+
+\item[6.] \textbf{Tyler, Matthew}, and Shanto Iyengar.
+  2024. ``Testing the Robustness of the ANES Feeling Thermometer
+  Indicators of Affective Polarization.''
+  \emph{American Political Science Review} 118(3): 1570--1576.
+  \doi{10.1017/S0003055423001302}.
+
+\item[5.] \textbf{Tyler, Matthew}, and Shanto Iyengar.
+  2023. ``Learning to Dislike Your Opponents: Political Socialization
+  in the Era of Polarization.''
+  \emph{American Political Science Review} 117(1): 347--354.
+  \doi{10.1017/S000305542200048X}.
+
+\item[4.] Westwood, Sean J., Justin Grimmer, \textbf{Matthew Tyler},
+  and Clayton Nall. 2022.
+  ``Current Research Overstates American Support for Political Violence.''
+  \emph{Proceedings of the National Academy of Sciences}
+  119(12): e2116870119. \doi{10.1073/pnas.2116870119}.
+
+\item[3.] \textbf{Tyler, Matthew}, Justin Grimmer, and Shanto Iyengar.
+  2022. ``Partisan Enclaves and Information Bazaars: Mapping Selective
+  Exposure to Online News.'' \emph{The Journal of Politics}
+  84(2): 1057--1073. \doi{10.1086/716950}.
+
+\item[2.] Marble, William, and \textbf{Matthew Tyler}.
+  2022. ``The Structure of Political Choices: Distinguishing Between
+  Constraint and Multidimensionality.''
+  \emph{Political Analysis} 30(3): 328--345.
+  \doi{10.1017/pan.2021.3}.
+
+\item[1.] Fong, Christian, and \textbf{Matthew Tyler}.
+  2021. ``Machine Learning Predictions as Regression Covariates.''
+  \emph{Political Analysis} 29(4): 467--484.
+  \doi{10.1017/pan.2020.38}.
+\end{publicationlist}
+
+\subsection*{Invited Articles}
+\begin{publicationlist}
+\item[1.] Westwood, Sean J., Justin Grimmer, \textbf{Matthew Tyler},
+  and Clayton Nall. 2022.
+  ``Reply to Kalmoe and Mason: The Pitfalls of Using Surveys to Measure
+  Low-Prevalence Attitudes and Behavior.''
+  \emph{Proceedings of the National Academy of Sciences}
+  119(32): e2207584119. \doi{10.1073/pnas.2207584119}.
+\end{publicationlist}
+
+\subsection*{Working Papers and Manuscripts}
+% Current submission/review statuses were not specified for these papers.
+% Add a status (e.g., "Under review") only when verified.
+\begin{manuscriptlist}
+\item \textbf{Tyler, Matthew}, Justin Grimmer, and Sean Westwood.
+  ``A Statistical Framework to Engage the Problem of Disengaged Survey
+  Respondents: Measuring Public Support for Partisan Violence.''
+  Working paper, July 13, 2024. \ssrn{4894008}.
+
+\item Erik Peterson, \textbf{Matthew Tyler}, and Agustin Prinetti.
+  ``Designing for Power: Covariates, Indices, and Efficiency in Survey
+  Experiments.'' Working paper, January 14, 2026. \ssrn{6117547}.
+
+\item \textbf{Tyler, Matthew}.
+  ``Bounding Causal Effects in Survey Experiments with Noncompliance
+  or Inattention.'' Working paper.
+  \pdf{http://www.weekendu.uh.edu/hobby/cpp/events/texmeth/papers/texmeth_matthew_tyler.pdf}.
+\end{manuscriptlist}
+
+\section{GRANTS}
+\cvrow{\textbf{National Science Foundation --- CAREER Award}}{2025--2030 (est.)}
+``Statistical Solutions for Survey Measurement Errors''\par
+Principal Investigator \textbullet\ Award \#2442402 \textbullet\ \$400,000
+
+\section{TEACHING}
+\subsection*{Graduate Courses --- Rice University}
+\cvrow{Introduction to Statistics}{Fall 2023, 2024}
+\cvrow{Machine Learning for Social Science}{Spring 2025}
+\cvrow{Partisan Polarization}{Fall 2025}
+\cvrow{Survey Research}{Spring 2026}
+
+\subsection*{Undergraduate Courses --- Rice University}
+\cvrow{Applied Research Methods}{Fall 2023}
+\cvrow{Polarization in the US}{Fall 2025}
+
+\subsection*{STaRT@Rice Workshops --- School of Social Sciences}
+\cvrow{Missing Data}{Fall 2023, 2024, 2025}
+
+\section{ADVISING}
+\subsection*{Ph.D. Dissertation Committees}
+\cvrow{Sho Izumisawa --- Committee Member}{In progress}
+
+\subsection*{Undergraduate Thesis Advising}
+Zach Yiannias (Ph.D. placement: Department of Politics, Princeton University)
+
+\section{SERVICE TO THE UNIVERSITY}
+\subsection*{University and School Service}
+\cvrow{Faculty Advisory Committee, Social Sciences Research Institute}{2024--2025}
+\cvrow{Social Sciences Divisional Advisor, Sid Richardson College}{2025--2026}
+\cvrow{Judge, Shapiro Showcase Undergraduate Research Competition}{2025}
+\cvrow{Judge, School of Social Sciences Undergraduate Research Symposium}{2024}
+
+\subsection*{Departmental Service}
+\cvrow{Faculty Advisor, Political Science Math Camp}{2024--present}
+\cvrow{Chair, Speaker Series Committee}{2024--present}
+\cvrow{American Politics Search Committee}{2025--2026}
+\cvrow{Graduate Studies Committee}{2024--2025}
+\cvrow{Speaker Series Committee}{2023--2024}
+\cvrow{Open Field Search Committee}{2023--2024}
+
+\section{SERVICE TO THE PROFESSION}
+\subsection*{Conference Service}
+\cvrow{Poster Judge, Society for Political Methodology Summer Meeting}{2025}
+\cvrow{Panel Chair, European Political Science Association}{2025}
+\cvrow{Panel Chair and Discussant, American Political Science Association}{2024}
+\cvrow{Discussant, European Political Science Association}{2024}
+\cvrow{Discussant, Society for Political Methodology Summer Meeting}{2022}
+\cvrow{Discussant, New Directions in Analyzing Text as Data}{2019}
+
+% OPTIONAL CONTENT: Add these sections after checking accuracy and dates.
+%
+% \subsection*{Journal Reviewing}
+% American Journal of Political Science; American Political Science Review;
+% Comparative Political Studies; International Organization; Journal of
+% Experimental Political Science; Journal of Survey Statistics and Methodology;
+% The Journal of Politics; Nature Human Behaviour; Perspectives on Politics;
+% Political Analysis; Political Behavior; Public Opinion Quarterly;
+% Sociological Methods and Research; West European Politics.
+%
+% \section{SELECTED INVITED TALKS}
+% American Politics Annual Conference, Washington University in St. Louis (2026)
+% PA-NJ AAPOR Learning Lunch Series (2025)
+% Causal Inference Seminar, UMass Amherst (2023)
+% International Methods Colloquium (2020, 2019)
+
+\end{document}
