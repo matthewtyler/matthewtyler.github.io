@@ -11,7 +11,10 @@ Most of my current research examines how errors in survey responses affect what 
 
 I earned my PhD in Political Science from Stanford University in 2021 and hold bachelor's degrees in Statistical Science and Mathematics from Duke University.
 
-[DOWNLOAD CV]({{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }})
+<div class="homepage-actions">
+  <a class="button-link" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">DOWNLOAD CV</a>
+  <a class="button-link" href="{{ '/graduate-study.html' | relative_url }}">PROSPECTIVE GRADUATE STUDENTS</a>
+</div>
 
 <!-- BEGIN CV PUBLICATIONS -->
 <!-- Generated from CV/CV.tex by script/sync-publications. -->
