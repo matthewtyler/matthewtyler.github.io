@@ -13,7 +13,6 @@ I earned my PhD in Political Science from Stanford University in 2021 and hold b
 
 <div class="homepage-actions">
   <a class="button-link" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">DOWNLOAD CV</a>
-  <a class="button-link" href="{{ '/graduate-study.html' | relative_url }}">PROSPECTIVE GRADUATE STUDENTS</a>
 </div>
 
 <!-- BEGIN CV PUBLICATIONS -->
