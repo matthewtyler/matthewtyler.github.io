@@ -71,7 +71,7 @@ h2 { color: var(--ink); font: 400 31px/1.25 var(--font-text); letter-spacing: -.
   h1 br::after { content: " "; }
   h1, .profile-name { font-size: 48px; max-width: 230px; }
   .site-header { align-items: flex-start; flex-direction: column; gap: 8px; padding: 20px 0 16px; }
-  nav { width: 100%; justify-content: space-between; }
+  nav { width: 100%; justify-content: flex-start; }
   .content > p:first-of-type { font-size: 16px; }
 }
 @media (max-width: 440px) {
