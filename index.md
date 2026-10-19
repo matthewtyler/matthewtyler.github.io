@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About
-{: #about}
+{: #about .visually-hidden}
 
 I'm an Assistant Professor in the Department of Political Science at Rice University. I develop statistical methods to address measurement and causal inference challenges in the study of partisan polarization.
 
