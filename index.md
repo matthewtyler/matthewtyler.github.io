@@ -8,35 +8,35 @@ I'm an Assistant Professor in the Department of Political Science at Rice Univer
 
 [DOWNLOAD CV]({{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }})
 
-## Peer-Reviewed Publications
+<!-- BEGIN CV PUBLICATIONS -->
+<!-- Generated from CV/CV.tex by script/sync-publications. -->
 
-{: reversed="reversed"}
+## Refereed Journal Articles
 
-9. **Tyler, Matthew**, Shanto Iyengar, Arjun Wilkins, et al. "Campaigns Reinforce Partisanship and Short-Term Forces: Evidence from a Large-Scale Panel Study of the 2020 US Presidential Campaign." *Political Science Research and Methods*, conditionally accepted.
+<ol reversed>
+  <li value="9"><strong>Tyler, Matthew</strong>, Shanto Iyengar, Arjun Wilkins, et al. “Campaigns Reinforce Partisanship and Short-Term Forces: Evidence from a Large-Scale Panel Study of the 2020 US Presidential Campaign.” <em>Political Science Research and Methods</em>. Conditionally accepted (pending replication).</li>
+  <li value="8"><strong>Tyler, Matthew</strong>, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, and Nicholas Valentino. “Why Are Surveys Struggling to Estimate Vote Shares?” <em>American Journal of Political Science</em> (Early View). <a href="https://doi.org/10.1111/ajps.70051">[DOI]</a></li>
+  <li value="7">Grimmer, Justin, Michael C. Herron, and <strong>Matthew Tyler</strong>. 2024. “Evaluating a New Generation of Expansive Claims about Vote Manipulation.” <em>Election Law Journal</em> 23(3): 211–236. <a href="https://doi.org/10.1089/elj.2022.0070">[DOI]</a>.</li>
+  <li value="6"><strong>Tyler, Matthew</strong>, and Shanto Iyengar. 2024. “Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization.” <em>American Political Science Review</em> 118(3): 1570–1576. <a href="https://doi.org/10.1017/S0003055423001302">[DOI]</a>.</li>
+  <li value="5"><strong>Tyler, Matthew</strong>, and Shanto Iyengar. 2023. “Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization.” <em>American Political Science Review</em> 117(1): 347–354. <a href="https://doi.org/10.1017/S000305542200048X">[DOI]</a>.</li>
+  <li value="4">Westwood, Sean J., Justin Grimmer, <strong>Matthew Tyler</strong>, and Clayton Nall. 2022. “Current Research Overstates American Support for Political Violence.” <em>Proceedings of the National Academy of Sciences</em> 119(12): e2116870119. <a href="https://doi.org/10.1073/pnas.2116870119">[DOI]</a>.</li>
+  <li value="3"><strong>Tyler, Matthew</strong>, Justin Grimmer, and Shanto Iyengar. 2022. “Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News.” <em>The Journal of Politics</em> 84(2): 1057–1073. <a href="https://doi.org/10.1086/716950">[DOI]</a>.</li>
+  <li value="2">Marble, William, and <strong>Matthew Tyler</strong>. 2022. “The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality.” <em>Political Analysis</em> 30(3): 328–345. <a href="https://doi.org/10.1017/pan.2021.3">[DOI]</a>.</li>
+  <li value="1">Fong, Christian, and <strong>Matthew Tyler</strong>. 2021. “Machine Learning Predictions as Regression Covariates.” <em>Political Analysis</em> 29(4): 467–484. <a href="https://doi.org/10.1017/pan.2020.38">[DOI]</a>.</li>
+</ol>
 
-8. **Tyler, Matthew**, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, Nicholas Valentino. 2026. "Why Are Surveys Struggling to Estimate Vote Shares?" *American Journal of Political Science*, Early View. [[DOI]](https://doi.org/10.1111/ajps.70051)
+## Invited Articles
 
-7. Grimmer, Justin, Michael C. Herron, and **Matthew Tyler**. 2024. "Evaluating a New Generation of Expansive Claims about Vote Manipulation." *Election Law Journal* 23(3): 211-236. [[DOI]](https://doi.org/10.1089/elj.2022.0070)
+<ol reversed>
+  <li value="1">Westwood, Sean J., Justin Grimmer, <strong>Matthew Tyler</strong>, and Clayton Nall. 2022. “Reply to Kalmoe and Mason: The Pitfalls of Using Surveys to Measure Low-Prevalence Attitudes and Behavior.” <em>Proceedings of the National Academy of Sciences</em> 119(32): e2207584119. <a href="https://doi.org/10.1073/pnas.2207584119">[DOI]</a>.</li>
+</ol>
 
-6. **Tyler, Matthew** and Shanto Iyengar. 2024. "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization." *American Political Science Review* 118(3): 1570-1576. [[DOI]](https://doi.org/10.1017/S0003055423001302)
+## Working Papers and Manuscripts
 
-5. **Tyler, Matthew**, and Shanto Iyengar. 2023. "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization." *American Political Science Review* 117(1): 347–354. [[DOI]](https://doi.org/10.1017/S000305542200048X)
+<ul>
+  <li><strong>Tyler, Matthew</strong>, Justin Grimmer, and Sean Westwood. “A Statistical Framework to Engage the Problem of Disengaged Survey Respondents: Measuring Public Support for Partisan Violence.” Working paper, July 13, 2024. <a href="https://ssrn.com/abstract=4894008">[SSRN]</a>.</li>
+  <li>Erik Peterson, <strong>Matthew Tyler</strong>, and Agustin Prinetti. “Designing for Power: Covariates, Indices, and Efficiency in Survey Experiments.” Working paper, January 14, 2026. <a href="https://ssrn.com/abstract=6117547">[SSRN]</a>.</li>
+  <li><strong>Tyler, Matthew</strong>. “Bounding Causal Effects in Survey Experiments with Noncompliance or Inattention.” Working paper. <a href="http://www.weekendu.uh.edu/hobby/cpp/events/texmeth/papers/texmeth_matthew_tyler.pdf">[PDF]</a>.</li>
+</ul>
 
-4. Westwood, Sean J., Justin Grimmer, **Matthew Tyler**, and Clayton Nall. 2022. "Current Research Overstates American Support for Political Violence." *Proceedings of the National Academy of Sciences* 119(12): e2116870119. [[DOI]](https://doi.org/10.1073/pnas.2116870119)
-
-3. **Tyler, Matthew**, Justin Grimmer, and Shanto Iyengar. 2022. "Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News." *The Journal of Politics* 84(2): 1057–73. [[DOI]](https://doi.org/10.1086/716950)
-
-2. Marble, William, and **Matthew Tyler**. 2022. "The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality." *Political Analysis* 30(3): 328–45. [[DOI]](https://doi.org/10.1017/pan.2021.3)
-
-1. Fong, Christian, and **Matthew Tyler**. 2021. "Machine Learning Predictions as Regression Covariates." *Political Analysis* 29(4): 467–84. [[DOI]](https://doi.org/10.1017/pan.2020.38)
-
-
-## Working Papers
-
-* **Tyler, Matthew**. "Bounding causal effects in survey experiments with noncompliance or inattention." [[Dropbox]](https://www.dropbox.com/scl/fi/wvzcka6frejqu6c3xl8cg/Matthew_Tyler_Paper_Polmeth2025_Matthew-Tyler.pdf?rlkey=pfywiip11rg4lu23bvlsr0mx9&st=7wkj4cud&dl=0)
-
-* Peterson, Erik, **Matthew Tyler**, and Agustin Prinetti. "Designing for Power: Covariates, Indices, and Efficiency in Survey Experiments." [[SSRN]](https://papers.ssrn.com/abstract=6117547)
-
-* **Tyler, Matthew**, Justin Grimmer, and Sean J. Westwood. "A Statistical Framework to Engage the Problem of Disengaged Survey Respondents." [[SSRN]](https://papers.ssrn.com/abstract=4894008)
-
-<!-- * **Tyler, Matthew.** "Counterfactual Forecasting: Causal Inference without Simultaneous Controls." [[PDF]](https://www.dropbox.com/s/bux4klf66dh66qg/FSControls.pdf?dl=0) -->
+<!-- END CV PUBLICATIONS -->

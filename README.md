@@ -1,5 +1,25 @@
 # The Minimal Light Theme
 
+## Updating the CV and publications
+
+`CV/CV.tex` is the source of truth for the website's publication lists,
+including invited articles and working papers. After editing the CV, run:
+
+```sh
+script/build-cv
+```
+
+This rebuilds `CV/CV-Matthew-Tyler.pdf` and automatically updates the publication
+section in `index.md`. Commit all three files together. To sync just the website
+without a LaTeX installation, run `python3 script/sync-publications`.
+
+Do not edit the generated section between the CV publication markers in
+`index.md`. CI checks it against the CV on every push and pull request and fails
+if it is out of date. Keep publications in the CV's `publicationlist` and
+`manuscriptlist` environments; unsupported LaTeX produces an error rather than
+silently dropping content. Editing only the PDF does not update the source or
+website; make CV changes in `CV/CV.tex`.
+
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 [![gem](https://img.shields.io/gem/v/minimal-light?style=flat-square&logo=rubygems&color=E9573F)](https://rubygems.org/gems/minimal-light)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg?style=flat-square&logo=jekyll)](https://jekyllrb.com/)

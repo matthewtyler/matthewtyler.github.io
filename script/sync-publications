@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+"""Render the CV's publication section into the homepage (standard library only)."""
+
+import argparse
+import html
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+START = '<!-- BEGIN CV PUBLICATIONS -->'
+END = '<!-- END CV PUBLICATIONS -->'
+
+
+def render_tex(source):
+    """Convert the supported CV inline markup; reject unsupported LaTeX."""
+    def group(position):
+        if position >= len(source) or source[position] != '{':
+            raise ValueError('Expected a braced LaTeX argument')
+        depth = 1
+        end = position + 1
+        while end < len(source) and depth:
+            if source[end] == '{':
+                depth += 1
+            elif source[end] == '}':
+                depth -= 1
+            end += 1
+        if depth:
+            raise ValueError('Unclosed LaTeX argument')
+        return source[position + 1:end - 1], end
+
+    result = []
+    position = 0
+    while position < len(source):
+        if source[position] != '\\':
+            end = source.find('\\', position)
+            if end == -1:
+                end = len(source)
+            plain = source[position:end]
+            if '{' in plain or '}' in plain:
+                raise ValueError('Unsupported bare LaTeX braces')
+            plain = plain.replace('``', '“').replace("''", '”')
+            plain = plain.replace('---', '—').replace('--', '–').replace('~', ' ')
+            result.append(html.escape(plain))
+            position = end
+            continue
+        match = re.match(r'\\(textbf|emph|doi|pdf|ssrn|href)\b', source[position:])
+        if not match:
+            raise ValueError(f'Unsupported LaTeX near {source[position:position + 40]!r}')
+        command = match[1]
+        argument, position = group(position + len(match[0]))
+        if command in ('textbf', 'emph'):
+            tag = 'strong' if command == 'textbf' else 'em'
+            result.append(f'<{tag}>{render_tex(argument)}</{tag}>')
+        else:
+            prefixes = {'doi': 'https://doi.org/', 'ssrn': 'https://ssrn.com/abstract='}
+            url = prefixes.get(command, '') + argument
+            if not url.startswith(('https://', 'http://')):
+                raise ValueError(f'Unsupported link: {url}')
+            label = f'[{command.upper()}]'
+            if command == 'href':
+                label, position = group(position)
+                label = render_tex(label)
+            result.append(f'<a href="{html.escape(url, quote=True)}">{label}</a>')
+    return ''.join(result)
+
+
+def publications(source):
+    source = re.sub(r'(?m)(?<!\\)%.*$', '', source)
+    section = re.search(r'\\section\{PUBLICATIONS\}(.*?)(?=\\section\{|\\end\{document\})', source, re.S)
+    if not section:
+        raise ValueError('CV is missing its PUBLICATIONS section')
+    pattern = re.compile(
+        r'\s*\\subsection\*?\{([^{}]+)\}\s*'
+        r'\\begin\{(publicationlist|manuscriptlist)\}(.*?)\\end\{\2\}', re.S)
+    body = section[1]
+    output = [START, '<!-- Generated from CV/CV.tex by script/sync-publications. -->']
+    position = 0
+    for match in pattern.finditer(body):
+        if body[position:match.start()].strip():
+            raise ValueError('Unsupported content in CV publications section')
+        title, environment, entries = match.groups()
+        output.extend(['', f'## {title}', ''])
+        numbered = environment == 'publicationlist'
+        output.append('<ol reversed>' if numbered else '<ul>')
+        items = list(re.finditer(r'\\item\s*(?:\[(\d+)\.\])?\s*(.*?)(?=\\item|\Z)', entries, re.S))
+        if not items or entries[:items[0].start()].strip():
+            raise ValueError(f'Missing or malformed entries in {title}')
+        for item in items:
+            number, citation = item.groups()
+            if numbered != bool(number):
+                raise ValueError(f'Unexpected publication numbering in {title}')
+            value = f' value="{number}"' if number else ''
+            citation = render_tex(re.sub(r'\s+', ' ', citation).strip())
+            output.append(f'  <li{value}>{citation}</li>')
+        output.append('</ol>' if numbered else '</ul>')
+        position = match.end()
+    if not position or body[position:].strip():
+        raise ValueError('Unsupported content in CV publications section')
+    return '\n'.join(output + ['', END])
+
+
+def sync(check=False):
+    homepage = ROOT / 'index.md'
+    original = homepage.read_text()
+    if original.count(START) != 1 or original.count(END) != 1:
+        raise ValueError('Homepage must have exactly one publication marker pair')
+    before, remainder = original.split(START)
+    _, after = remainder.split(END)
+    updated = before + publications((ROOT / 'CV/CV.tex').read_text()) + after
+    if check:
+        if updated != original:
+            raise ValueError('Homepage publications differ from CV. Run script/sync-publications.')
+    elif updated != original:
+        homepage.write_text(updated)
+        print('Updated homepage publications from CV/CV.tex.')
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check', action='store_true', help='Fail if the homepage differs from the CV')
+    try:
+        sync(parser.parse_args().check)
+    except ValueError as error:
+        parser.exit(1, f'{error}\n')

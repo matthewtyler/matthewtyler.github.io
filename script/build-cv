@@ -12,3 +12,4 @@ for pass in 1 2; do
     -jobname=CV-Matthew-Tyler -output-directory="$build_dir" CV.tex
 done
 cp "$build_dir/CV-Matthew-Tyler.pdf" CV-Matthew-Tyler.pdf
+python3 "$repo_dir/script/sync-publications"
