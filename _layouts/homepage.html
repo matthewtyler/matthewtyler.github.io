@@ -51,7 +51,7 @@
           {% if site.email and page.hide_email != true %}
           <a class="email" href="mailto:{{ site.email | replace: ' (at) ', '@' }}">{{ site.email }}</a>
           {% endif %}
-          <div class="profile-links" aria-label="Academic profiles">
+          <div class="profile-links" role="group" aria-label="Academic profiles">
             {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
             {% if site.github_link %}<a href="{{ site.github_link }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
             {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>{% endif %}
