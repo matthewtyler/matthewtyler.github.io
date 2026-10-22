@@ -31,6 +31,7 @@ Explore the department and the university through these resources:
 The following resources offer perspectives on applying to PhD programs and writing a statement of purpose. Read them alongside Rice's own application instructions.
 
 - [Chris Blattman: FAQs on PhD applications](https://chrisblattman.com/blog/2022/03/25/faqs-on-phd-applications/).
+- [Yiqing Xu: applying to social-science PhD programs in North America](https://yiqingxu.org/guide/phd-applications/).
 - [Joshua Kertzer: resources for prospective graduate students](https://jkertzer.sites.fas.harvard.edu/prospective.html).
 - [Chris Blattman: writing your statement of purpose](https://chrisblattman.com/blog/2022/01/11/phd-applicants-writing-your-statement-of-purpose/).
 - [Yuhua Wang: writing a statement of purpose (PDF)](https://yuhuawang.scholars.harvard.edu/sites/g/files/omnuum8221/files/yuhuawang/files/writing_statement_of_purpose_for_graduate_school_application_2021_yuhua_wang_0.pdf).

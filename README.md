@@ -1,6 +1,10 @@
 # Matthew Tyler’s website
 
-The homepage uses Jekyll with a custom responsive layout. Edit the biography in
+The homepage uses Jekyll with a custom responsive editorial layout. Set
+`homepage: true` in its front matter so inferred page titles cannot trigger the
+standalone reading layout. Publication entries show titles first, followed by
+authors, full journal details, and text links; their original anchors remain intact.
+The graduate page uses a centered reading column. Edit the biography in
 `index.md`, profile details in `_config.yml`, layout in `_layouts/homepage.html`,
 and styles in `_sass/minimal-light.scss`. Existing publication section anchors
 and the CV download path are preserved. The design supports system dark mode,
@@ -16,7 +20,8 @@ The original theme documentation is retained below for reference.
 ## Updating the CV and publications
 
 `CV/CV.tex` is the source of truth for the website's publication lists,
-including invited articles and working papers. After editing the CV, run:
+including working papers and invited articles. The website displays peer reviewed
+articles, working papers, and then invited articles under “Other Publications.” After editing the CV, run:
 
 ```sh
 script/build-cv

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} | Political Science · Rice University</title>
+    <title>{% unless page.homepage %}{{ page.title }} | {% endunless %}{{ site.title }} | Political Science · Rice University</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,15 +14,7 @@
     <link rel="canonical" href="{{ site.canonical }}{{ page.url | remove_first: "/" }}"/>
     {% endif %}
 
-    {% if site.favicon_dark %}
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    {% endif %}
-    {% if site.favicon %}
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    {% endif %}
-    {% if site.favicon or site.favicon_dark %}
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-    {% endif %}
+    <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
@@ -32,41 +24,40 @@
       <header class="site-header">
         <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav aria-label="Main navigation">
-          <a href="{{ '/' | relative_url }}#about">About</a>
-          <a href="{{ '/' | relative_url }}#refereed-journal-articles">Publications</a>
-          <a href="{{ '/' | relative_url }}#working-papers-and-manuscripts">Working papers</a>
-          <a href="{{ '/graduate-study.html' | relative_url }}"{% if page.url == "/graduate-study.html" %} aria-current="page"{% endif %}>Prospective Graduate Students</a>
+          <a href="{{ '/' | relative_url }}#refereed-journal-articles">Research</a>
+          <a href="{{ '/graduate-study.html' | relative_url }}"{% if page.url == "/graduate-study.html" %} aria-current="page"{% endif %}>Graduate students</a>
           <a href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">CV <span aria-hidden="true">↗</span></a>
         </nav>
       </header>
 
-      <div class="page-grid{% if page.title %} article-grid{% endif %}">
+      <div class="page-grid{% unless page.homepage %} article-grid{% endunless %}">
+        {% if page.homepage %}
         <aside class="profile" aria-label="Profile and contact">
           {% if site.avatar %}
           <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Matthew Tyler" width="160" height="224">
           {% endif %}
-          <p class="eyebrow">Political Science · {{ site.affiliation }}</p>
-          {% if page.title %}<p class="profile-name">Matthew <br>Tyler</p>{% else %}<h1>Matthew <br>Tyler</h1>{% endif %}
-          <p class="position">{{ site.position }}<br>{{ site.affiliation }}</p>
+          <h1>Matthew Tyler</h1>
+          <p class="position">{{ site.position }}<br>Political Science · {{ site.affiliation }}</p>
           {% if site.email and page.hide_email != true %}
           <a class="email" href="mailto:{{ site.email | replace: ' (at) ', '@' }}">{{ site.email }}</a>
           {% endif %}
+          <a class="cv-link" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">Download CV <span aria-hidden="true">↗</span></a>
           <div class="profile-links" role="group" aria-label="Academic profiles">
             {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
             {% if site.github_link %}<a href="{{ site.github_link }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
             {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>{% endif %}
           </div>
         </aside>
+        {% endif %}
 
-        <main id="main" tabindex="-1" class="content{% if page.title %} article-content{% endif %}">
-          {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+        <main id="main" tabindex="-1" class="content{% unless page.homepage %} article-content{% endunless %}">
+          {% unless page.homepage %}<h1 class="page-title">{{ page.title }}</h1>{% endunless %}
           {{ content }}
         </main>
       </div>
 
       <footer class="site-footer">
         <p>{{ site.title }} <span aria-hidden="true">/</span> {{ site.affiliation }}</p>
-        <p>Powered by Jekyll. Adapted from <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a>.</p>
         <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </footer>
     </div>

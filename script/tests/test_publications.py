@@ -16,10 +16,32 @@ class PublicationsTest(unittest.TestCase):
         root = Path(__file__).resolve().parents[2]
         rendered = PUBLICATIONS((root / 'CV/CV.tex').read_text())
         self.assertEqual(rendered.count('<li'), 13)
-        self.assertIn('## Invited Articles', rendered)
+        self.assertIn('>Other Publications</h2></summary>', rendered)
+        self.assertIn('Reply to Kalmoe and Mason', rendered)
+        self.assertIn('>Peer Reviewed Articles</h2></summary>', rendered)
+        self.assertEqual(rendered.count('<details class="research-section" open>'), 3)
+        self.assertIn('id="refereed-journal-articles"', rendered)
+        self.assertLess(rendered.index('>Peer Reviewed Articles</h2>'),
+                        rendered.index('>Working papers</h2>'))
+        self.assertLess(rendered.index('>Working papers</h2>'),
+                        rendered.index('>Other Publications</h2>'))
         self.assertIn('pending replication', rendered)
         self.assertIn('Measuring Public Support for Partisan Violence', rendered)
-        self.assertIn('<ol reversed>', rendered)
+        self.assertIn('<ol reversed role="list">', rendered)
+
+    def test_title_first_preserves_citation_details(self):
+        citation = RENDER(
+            r'\textbf{Tyler, Matthew}, and A. Author. 2024. '
+            r"``A paper title.'' \emph{Journal} 12(3): 45--67. "
+            r'\doi{10.1/test}.')
+        rendered = MODULE['render_publication'](citation)
+        self.assertLess(rendered.index('A paper title'), rendered.index('Tyler, Matthew'))
+        for detail in ('A. Author', '2024', '<em>Journal</em>', '12(3): 45–67',
+                       'https://doi.org/10.1/test'):
+            self.assertIn(detail, rendered)
+        self.assertNotIn('[DOI]', rendered)
+        self.assertEqual(MODULE['render_publication']('Unusual citation.'),
+                         'Unusual citation.')
 
     def test_inline_markup_and_links(self):
         self.assertEqual(RENDER(r'\textbf{A \emph{B}}'), '<strong>A <em>B</em></strong>')

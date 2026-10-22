@@ -64,6 +64,28 @@ def render_tex(source):
     return ''.join(result)
 
 
+def render_publication(citation):
+    """Separate citation fields for scanning, retaining all bibliographic text."""
+    match = re.fullmatch(r'(.*?)“(.*?)”\s*(.*)', citation)
+    if not match:
+        return citation  # Keep unconventional or future citation formats intact.
+    authors, title, details = match.groups()
+    links = re.findall(r'<a href="[^"]+">.*?</a>', details)
+    details = re.sub(r'<a href="[^"]+">.*?</a>', '', details)
+    details = re.sub(r'\s+\.', '.', details).strip()
+    details = re.sub(r'\.{2,}$', '.', details)
+    title = title.rstrip('.')
+    rendered = (f'<h3 class="paper-title">{title}</h3>'
+                f'<p class="paper-authors">{authors.strip()}</p>'
+                f'<p class="paper-details">{details}</p>')
+    if links:
+        labels = {'[DOI]': 'Read article', '[SSRN]': 'SSRN', '[PDF]': 'PDF'}
+        for label, text in labels.items():
+            links = [link.replace(label, text) for link in links]
+        rendered += '<p class="paper-links">' + ' '.join(links) + '</p>'
+    return rendered
+
+
 def publications(source):
     source = re.sub(r'(?m)(?<!\\)%.*$', '', source)
     section = re.search(r'\\section\{PUBLICATIONS\}(.*?)(?=\\section\{|\\end\{document\})', source, re.S)
@@ -75,13 +97,21 @@ def publications(source):
     body = section[1]
     output = [START, '<!-- Generated from CV/CV.tex by script/sync-publications. -->']
     position = 0
+    other_publications = []
     for match in pattern.finditer(body):
         if body[position:match.start()].strip():
             raise ValueError('Unsupported content in CV publications section')
         title, environment, entries = match.groups()
-        output.extend(['', f'## {title}', ''])
+        section_start = len(output)
+        headings = {'Refereed Journal Articles': 'Peer Reviewed Articles',
+                    'Invited Articles': 'Other Publications',
+                    'Working Papers and Manuscripts': 'Working papers'}
+        heading = headings.get(title, title)
+        anchor = re.sub(r'[^a-z0-9 -]', '', title.lower()).replace(' ', '-')
+        output.extend(['', '<details class="research-section" open>',
+                       f'<summary><h2 id="{anchor}">{heading}</h2></summary>', ''])
         numbered = environment == 'publicationlist'
-        output.append('<ol reversed>' if numbered else '<ul>')
+        output.append('<ol reversed role="list">' if numbered else '<ul role="list">')
         items = list(re.finditer(r'\\item\s*(?:\[(\d+)\.\])?\s*(.*?)(?=\\item|\Z)', entries, re.S))
         if not items or entries[:items[0].start()].strip():
             raise ValueError(f'Missing or malformed entries in {title}')
@@ -91,12 +121,17 @@ def publications(source):
                 raise ValueError(f'Unexpected publication numbering in {title}')
             value = f' value="{number}"' if number else ''
             citation = render_tex(re.sub(r'\s+', ' ', citation).strip())
-            output.append(f'  <li{value}>{citation}</li>')
+            output.append(f'  <li{value}>{render_publication(citation)}</li>')
         output.append('</ol>' if numbered else '</ul>')
+        output.append('</details>')
+        if title == 'Invited Articles':
+            # Keep the CV order intact; show other publications last on the web.
+            other_publications.extend(output[section_start:])
+            del output[section_start:]
         position = match.end()
     if not position or body[position:].strip():
         raise ValueError('Unsupported content in CV publications section')
-    return '\n'.join(output + ['', END])
+    return '\n'.join(output + other_publications + ['', END])
 
 
 def sync(check=False):
