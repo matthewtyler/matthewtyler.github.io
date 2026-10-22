@@ -37,7 +37,7 @@
           <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Matthew Tyler" width="160" height="224">
           {% endif %}
           <h1>Matthew Tyler</h1>
-          <p class="position">{{ site.position }}<br><a href="https://politicalscience.rice.edu/">Political Science</a> · {{ site.affiliation }}</p>
+          <p class="position">{{ site.position }}<br><a href="https://politicalscience.rice.edu/">Political Science</a> · <a href="https://www.rice.edu/">{{ site.affiliation }}</a></p>
           {% if site.email and page.hide_email != true %}
           <a class="email" href="mailto:{{ site.email | replace: ' (at) ', '@' }}">{{ site.email }}</a>
           {% endif %}
