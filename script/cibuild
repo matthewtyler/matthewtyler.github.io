@@ -4,6 +4,7 @@ set -e
 
 python3 script/sync-publications --check
 python3 -m unittest discover -s script/tests
+node script/tests/test_research_filter.js
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --check-html --check-sri --disable-external
 bundle exec rubocop -D

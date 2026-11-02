@@ -1,0 +1,59 @@
+{
+  "topics": [
+    {
+      "id": "methods",
+      "label": "Methods"
+    },
+    {
+      "id": "american-politics",
+      "label": "American Politics"
+    }
+  ],
+  "papers": {
+    "Campaigns Reinforce Partisanship and Short-Term Forces: Evidence from a Large-Scale Panel Study of the 2020 US Presidential Campaign": [
+      "american-politics"
+    ],
+    "Why Are Surveys Struggling to Estimate Vote Shares?": [
+      "methods",
+      "american-politics"
+    ],
+    "Evaluating a New Generation of Expansive Claims about Vote Manipulation": [
+      "american-politics"
+    ],
+    "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization": [
+      "methods",
+      "american-politics"
+    ],
+    "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization": [
+      "american-politics"
+    ],
+    "Current Research Overstates American Support for Political Violence": [
+      "methods",
+      "american-politics"
+    ],
+    "Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News": [
+      "american-politics"
+    ],
+    "The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality": [
+      "methods",
+      "american-politics"
+    ],
+    "Machine Learning Predictions as Regression Covariates": [
+      "methods"
+    ],
+    "A Statistical Framework to Engage the Problem of Disengaged Survey Respondents: Measuring Public Support for Partisan Violence": [
+      "methods",
+      "american-politics"
+    ],
+    "Designing for Power: Covariates, Indices, and Efficiency in Survey Experiments": [
+      "methods"
+    ],
+    "Bounding Causal Effects in Survey Experiments with Noncompliance or Inattention": [
+      "methods"
+    ],
+    "Reply to Kalmoe and Mason: The Pitfalls of Using Surveys to Measure Low-Prevalence Attitudes and Behavior": [
+      "methods",
+      "american-politics"
+    ]
+  }
+}

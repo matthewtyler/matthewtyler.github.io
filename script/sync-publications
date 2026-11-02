@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Render the CV's publication section into the homepage (standard library only)."""
+"""Extract structured publication data from the CV (standard library only)."""
 
 import argparse
 import html
+import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-START = '<!-- BEGIN CV PUBLICATIONS -->'
-END = '<!-- END CV PUBLICATIONS -->'
 
 
 def render_tex(source):
@@ -64,26 +63,21 @@ def render_tex(source):
     return ''.join(result)
 
 
-def render_publication(citation):
-    """Separate citation fields for scanning, retaining all bibliographic text."""
+def publication_fields(citation):
+    """Retain supported inline markup and every bibliographic field."""
     match = re.fullmatch(r'(.*?)“(.*?)”\s*(.*)', citation)
     if not match:
-        return citation  # Keep unconventional or future citation formats intact.
+        return {'citation': citation}
     authors, title, details = match.groups()
-    links = re.findall(r'<a href="[^"]+">.*?</a>', details)
+    links = []
+    labels = {'[DOI]': 'Read article', '[SSRN]': 'SSRN', '[PDF]': 'PDF'}
+    for url, label in re.findall(r'<a href="([^"]+)">(.*?)</a>', details):
+        links.append({'url': html.unescape(url), 'label': labels.get(label, label)})
     details = re.sub(r'<a href="[^"]+">.*?</a>', '', details)
     details = re.sub(r'\s+\.', '.', details).strip()
     details = re.sub(r'\.{2,}$', '.', details)
-    title = title.rstrip('.')
-    rendered = (f'<h3 class="paper-title">{title}</h3>'
-                f'<p class="paper-authors">{authors.strip()}</p>'
-                f'<p class="paper-details">{details}</p>')
-    if links:
-        labels = {'[DOI]': 'Read article', '[SSRN]': 'SSRN', '[PDF]': 'PDF'}
-        for label, text in labels.items():
-            links = [link.replace(label, text) for link in links]
-        rendered += '<p class="paper-links">' + ' '.join(links) + '</p>'
-    return rendered
+    return {'title': title.rstrip('.'), 'authors': authors.strip(),
+            'details': details, 'links': links}
 
 
 def publications(source):
@@ -95,23 +89,21 @@ def publications(source):
         r'\s*\\subsection\*?\{([^{}]+)\}\s*'
         r'\\begin\{(publicationlist|manuscriptlist)\}(.*?)\\end\{\2\}', re.S)
     body = section[1]
-    output = [START, '<!-- Generated from CV/CV.tex by script/sync-publications. -->']
+    output = []
     position = 0
     other_publications = []
     for match in pattern.finditer(body):
         if body[position:match.start()].strip():
             raise ValueError('Unsupported content in CV publications section')
         title, environment, entries = match.groups()
-        section_start = len(output)
         headings = {'Refereed Journal Articles': 'Peer Reviewed Articles',
                     'Invited Articles': 'Other Publications',
                     'Working Papers and Manuscripts': 'Working papers'}
         heading = headings.get(title, title)
         anchor = re.sub(r'[^a-z0-9 -]', '', title.lower()).replace(' ', '-')
-        output.extend(['', '<details class="research-section" open>',
-                       f'<summary><h2 id="{anchor}">{heading}</h2></summary>', ''])
         numbered = environment == 'publicationlist'
-        output.append('<ol reversed role="list">' if numbered else '<ul role="list">')
+        section_data = {'heading': heading, 'anchor': anchor,
+                        'numbered': numbered, 'items': []}
         items = list(re.finditer(r'\\item\s*(?:\[(\d+)\.\])?\s*(.*?)(?=\\item|\Z)', entries, re.S))
         if not items or entries[:items[0].start()].strip():
             raise ValueError(f'Missing or malformed entries in {title}')
@@ -119,40 +111,38 @@ def publications(source):
             number, citation = item.groups()
             if numbered != bool(number):
                 raise ValueError(f'Unexpected publication numbering in {title}')
-            value = f' value="{number}"' if number else ''
             citation = render_tex(re.sub(r'\s+', ' ', citation).strip())
-            output.append(f'  <li{value}>{render_publication(citation)}</li>')
-        output.append('</ol>' if numbered else '</ul>')
-        output.append('</details>')
+            fields = publication_fields(citation)
+            if number:
+                fields['number'] = int(number)
+            section_data['items'].append(fields)
         if title == 'Invited Articles':
-            # Keep the CV order intact; show other publications last on the web.
-            other_publications.extend(output[section_start:])
-            del output[section_start:]
+            other_publications.append(section_data)
+        else:
+            output.append(section_data)
         position = match.end()
     if not position or body[position:].strip():
         raise ValueError('Unsupported content in CV publications section')
-    return '\n'.join(output + other_publications + ['', END])
+    return output + other_publications
 
 
 def sync(check=False):
-    homepage = ROOT / 'index.md'
-    original = homepage.read_text()
-    if original.count(START) != 1 or original.count(END) != 1:
-        raise ValueError('Homepage must have exactly one publication marker pair')
-    before, remainder = original.split(START)
-    _, after = remainder.split(END)
-    updated = before + publications((ROOT / 'CV/CV.tex').read_text()) + after
+    destination = ROOT / '_data/publications.json'
+    updated = json.dumps(publications((ROOT / 'CV/CV.tex').read_text()),
+                         ensure_ascii=False, indent=2) + '\n'
+    original = destination.read_text() if destination.exists() else None
     if check:
         if updated != original:
-            raise ValueError('Homepage publications differ from CV. Run script/sync-publications.')
+            raise ValueError('Publication data differs from CV. Run script/sync-publications.')
     elif updated != original:
-        homepage.write_text(updated)
-        print('Updated homepage publications from CV/CV.tex.')
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(updated)
+        print('Updated publication data from CV/CV.tex.')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true', help='Fail if the homepage differs from the CV')
+    parser.add_argument('--check', action='store_true', help='Fail if publication data differs from the CV')
     try:
         sync(parser.parse_args().check)
     except ValueError as error:

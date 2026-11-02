@@ -1,0 +1,171 @@
+[
+  {
+    "heading": "Peer Reviewed Articles",
+    "anchor": "refereed-journal-articles",
+    "numbered": true,
+    "items": [
+      {
+        "title": "Campaigns Reinforce Partisanship and Short-Term Forces: Evidence from a Large-Scale Panel Study of the 2020 US Presidential Campaign",
+        "authors": "<strong>Tyler, Matthew</strong>, Shanto Iyengar, Arjun Wilkins, et al.",
+        "details": "<em>Political Science Research and Methods</em>. Conditionally accepted (pending replication).",
+        "links": [],
+        "number": 9
+      },
+      {
+        "title": "Why Are Surveys Struggling to Estimate Vote Shares?",
+        "authors": "<strong>Tyler, Matthew</strong>, D. Sunshine Hillygus, Matthew DeBell, Ted Brader, Shanto Iyengar, Daron Shaw, and Nicholas Valentino.",
+        "details": "<em>American Journal of Political Science</em> (Early View).",
+        "links": [
+          {
+            "url": "https://doi.org/10.1111/ajps.70051",
+            "label": "Read article"
+          }
+        ],
+        "number": 8
+      },
+      {
+        "title": "Evaluating a New Generation of Expansive Claims about Vote Manipulation",
+        "authors": "Grimmer, Justin, Michael C. Herron, and <strong>Matthew Tyler</strong>. 2024.",
+        "details": "<em>Election Law Journal</em> 23(3): 211–236.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1089/elj.2022.0070",
+            "label": "Read article"
+          }
+        ],
+        "number": 7
+      },
+      {
+        "title": "Testing the Robustness of the ANES Feeling Thermometer Indicators of Affective Polarization",
+        "authors": "<strong>Tyler, Matthew</strong>, and Shanto Iyengar. 2024.",
+        "details": "<em>American Political Science Review</em> 118(3): 1570–1576.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1017/S0003055423001302",
+            "label": "Read article"
+          }
+        ],
+        "number": 6
+      },
+      {
+        "title": "Learning to Dislike Your Opponents: Political Socialization in the Era of Polarization",
+        "authors": "<strong>Tyler, Matthew</strong>, and Shanto Iyengar. 2023.",
+        "details": "<em>American Political Science Review</em> 117(1): 347–354.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1017/S000305542200048X",
+            "label": "Read article"
+          }
+        ],
+        "number": 5
+      },
+      {
+        "title": "Current Research Overstates American Support for Political Violence",
+        "authors": "Westwood, Sean J., Justin Grimmer, <strong>Matthew Tyler</strong>, and Clayton Nall. 2022.",
+        "details": "<em>Proceedings of the National Academy of Sciences</em> 119(12): e2116870119.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1073/pnas.2116870119",
+            "label": "Read article"
+          }
+        ],
+        "number": 4
+      },
+      {
+        "title": "Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News",
+        "authors": "<strong>Tyler, Matthew</strong>, Justin Grimmer, and Shanto Iyengar. 2022.",
+        "details": "<em>The Journal of Politics</em> 84(2): 1057–1073.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1086/716950",
+            "label": "Read article"
+          }
+        ],
+        "number": 3
+      },
+      {
+        "title": "The Structure of Political Choices: Distinguishing Between Constraint and Multidimensionality",
+        "authors": "Marble, William, and <strong>Matthew Tyler</strong>. 2022.",
+        "details": "<em>Political Analysis</em> 30(3): 328–345.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1017/pan.2021.3",
+            "label": "Read article"
+          }
+        ],
+        "number": 2
+      },
+      {
+        "title": "Machine Learning Predictions as Regression Covariates",
+        "authors": "Fong, Christian, and <strong>Matthew Tyler</strong>. 2021.",
+        "details": "<em>Political Analysis</em> 29(4): 467–484.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1017/pan.2020.38",
+            "label": "Read article"
+          }
+        ],
+        "number": 1
+      }
+    ]
+  },
+  {
+    "heading": "Working papers",
+    "anchor": "working-papers-and-manuscripts",
+    "numbered": false,
+    "items": [
+      {
+        "title": "A Statistical Framework to Engage the Problem of Disengaged Survey Respondents: Measuring Public Support for Partisan Violence",
+        "authors": "<strong>Tyler, Matthew</strong>, Justin Grimmer, and Sean Westwood.",
+        "details": "Working paper, July 13, 2024.",
+        "links": [
+          {
+            "url": "https://ssrn.com/abstract=4894008",
+            "label": "SSRN"
+          }
+        ]
+      },
+      {
+        "title": "Designing for Power: Covariates, Indices, and Efficiency in Survey Experiments",
+        "authors": "Erik Peterson, <strong>Matthew Tyler</strong>, and Agustin Prinetti.",
+        "details": "Working paper, January 14, 2026.",
+        "links": [
+          {
+            "url": "https://ssrn.com/abstract=6117547",
+            "label": "SSRN"
+          }
+        ]
+      },
+      {
+        "title": "Bounding Causal Effects in Survey Experiments with Noncompliance or Inattention",
+        "authors": "<strong>Tyler, Matthew</strong>.",
+        "details": "Working paper.",
+        "links": [
+          {
+            "url": "http://www.weekendu.uh.edu/hobby/cpp/events/texmeth/papers/texmeth_matthew_tyler.pdf",
+            "label": "PDF"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "Other Publications",
+    "anchor": "invited-articles",
+    "numbered": true,
+    "items": [
+      {
+        "title": "Reply to Kalmoe and Mason: The Pitfalls of Using Surveys to Measure Low-Prevalence Attitudes and Behavior",
+        "authors": "Westwood, Sean J., Justin Grimmer, <strong>Matthew Tyler</strong>, and Clayton Nall. 2022.",
+        "details": "<em>Proceedings of the National Academy of Sciences</em> 119(32): e2207584119.",
+        "links": [
+          {
+            "url": "https://doi.org/10.1073/pnas.2207584119",
+            "label": "Read article"
+          }
+        ],
+        "number": 1
+      }
+    ]
+  }
+]

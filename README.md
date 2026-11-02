@@ -1,21 +1,52 @@
 # Matthew Tyler’s website
 
-The homepage uses Jekyll with a custom responsive editorial layout. Set
-`homepage: true` in its front matter so inferred page titles cannot trigger the
-standalone reading layout. Publication entries show titles first, followed by
-authors, full journal details, and text links; their original anchors remain intact.
-The graduate page uses a centered reading column. Edit the biography in
-`index.md`, profile details in `_config.yml`, layout in `_layouts/homepage.html`,
-and styles in `_sass/minimal-light.scss`. Existing publication section anchors
-and the CV download path are preserved. The design supports system dark mode,
-keyboard navigation, reduced motion, mobile screens, and printing without
-requiring JavaScript or third-party font requests. Source Serif 4 and IBM Plex
-Sans are served from `assets/fonts/`, with their SIL Open Font licenses included.
-Font-face definitions live in `_sass/_fonts.scss`.
+A static Jekyll site with a compact profile introduction, full-width research
+lists, desktop sticky navigation, and a graduate-study reading page. The design uses
+locally hosted WOFF2 Literata in the same fixed styles requested by Econvitals,
+with 16px body text, compact bold headings, narrower reading columns, blue accents, and
+fine section dividers on a soft charcoal background with warm off-white text.
+Printed pages use a white background. It supports mobile
+layouts, keyboard navigation, reduced motion, and printing. Content and navigation work without
+JavaScript; a small script optionally highlights the active homepage section.
+
+Edit the biography in `index.md`, profile details in `_config.yml`, and graduate
+information in `graduate-study.md`. Presentation lives in
+`_layouts/homepage.html`, `_includes/research.html`, and
+`_sass/minimal-light.scss`. Publication data in `_data/publications.json` is
+generated from the CV; do not edit it by hand. Existing publication anchors,
+`/graduate-study.html`, and the CV download path are preserved.
 
 Run `bundle exec jekyll serve` to preview at <http://localhost:4000>.
 
 The original theme documentation is retained below for reference.
+
+## Research topics
+
+Edit `_data/research_topics.json` to change the filter labels and each paper's
+topics. These are editorial assignments, separate from the CV-generated citation
+data. The `papers` keys must match titles in `_data/publications.json` exactly;
+update the corresponding key if a title changes. A paper can have several topics.
+New papers without topic metadata still appear under **All research**.
+
+Use **Methods** for work whose central contribution concerns estimation,
+identification, research design, or measurement validity (including survey error).
+Use **American Politics** for substantive work on US elections, political behavior,
+public opinion, or institutions. Assign both when both contributions are central;
+using statistical methods alone does not warrant Methods, and a US illustration
+alone does not warrant American Politics.
+
+The assignments were reviewed against available abstracts and paper descriptions.
+The campaign paper remains classified from its title because no public abstract
+was located; the Designing for Power classification relies on its title and
+indexed SSRN keywords because the full abstract was inaccessible.
+
+One filter is active at a time. Counts update across all publication categories;
+empty categories remain visible. The full list and labels work without JavaScript,
+and printing includes all papers even while a filter is selected.
+
+Run `node script/tests/test_research_filter.js` to check filter behavior and
+`python3 -m unittest discover -s script/tests` to check CV parsing and topic metadata.
+The filter implementation lives in `assets/js/research-filter.js`.
 
 ## Updating the CV and publications
 
@@ -28,11 +59,10 @@ script/build-cv
 ```
 
 This rebuilds `CV/CV-Matthew-Tyler.pdf` and automatically updates the publication
-section in `index.md`. Commit all three files together. To sync just the website
+data in `_data/publications.json`. Commit the LaTeX source, PDF, and JSON together. To sync just the website
 without a LaTeX installation, run `python3 script/sync-publications`.
 
-Do not edit the generated section between the CV publication markers in
-`index.md`. CI checks it against the CV on every push and pull request and fails
+Do not edit the generated `_data/publications.json` file. CI checks it against the CV on every push and pull request and fails
 if it is out of date. Keep publications in the CV's `publicationlist` and
 `manuscriptlist` environments; unsupported LaTeX produces an error rather than
 silently dropping content. Editing only the PDF does not update the source or
