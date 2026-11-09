@@ -1,7 +1,7 @@
 <section class="research" id="research" aria-labelledby="research-title">
   <div class="section-heading">
     <div><p class="eyebrow">Publications &amp; manuscripts</p><h2 id="research-title">Research</h2></div>
-    <a class="text-link" href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ site.google_scholar }}">Google Scholar</a>
   </div>
   <div class="research-filter" hidden>
     <p class="filter-label" id="topic-filter-label">Browse by topic</p>
@@ -33,7 +33,7 @@
           </ul>
           {% endif %}
         </div>
-        {% if paper.links.size > 0 %}<div class="paper-links">{% for link in paper.links %}<a href="{{ link.url | escape }}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>{% endif %}
+        {% if paper.links.size > 0 %}<div class="paper-links">{% for link in paper.links %}<a href="{{ link.url | escape }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
       </li>
       {% endfor %}
     {% if section.numbered %}</ol>{% else %}</ul>{% endif %}

@@ -26,7 +26,7 @@
           <a href="{{ '/' | relative_url }}#about"{% if page.homepage %} data-section="about"{% endif %}>About</a>
           <a href="{{ '/' | relative_url }}#research"{% if page.homepage %} data-section="research"{% endif %}>Research</a>
           <a href="{{ '/graduate-study.html' | relative_url }}"{% if page.url == "/graduate-study.html" %} aria-current="page"{% endif %}>Prospective Graduate Students</a>
-          <a class="nav-cv" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">CV <span aria-hidden="true">↗</span></a>
+          <a class="nav-cv" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">CV</a>
         </nav>
       </div>
     </header>
@@ -42,12 +42,12 @@
             {% if site.avatar %}<img class="portrait" src="{{ site.avatar | relative_url }}" alt="Matthew Tyler" width="240" height="336">{% endif %}
             <div class="profile-links" role="group" aria-label="Contact and academic profiles">
               {% if site.email and page.hide_email != true %}<a href="mailto:{{ site.email | replace: ' (at) ', '@' }}">{{ site.email }}</a>{% endif %}
-              {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
             </div>
           </aside>
           <div class="biography">
             {{ content }}
-            <p><a class="text-link" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">Download CV <span aria-hidden="true">↗</span></a></p>
+            <p><a class="text-link" href="{{ '/CV/CV-Matthew-Tyler.pdf' | relative_url }}">Download CV</a></p>
           </div>
         </section>
         {% include research.html %}
@@ -71,7 +71,7 @@
       </main>
       <footer class="site-footer">
         <p>{{ site.title }} <span aria-hidden="true">/</span> {{ site.affiliation }}</p>
-        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        <a href="#top">Back to top</a>
       </footer>
     </div>
     {% if page.homepage %}
